@@ -12,7 +12,7 @@
   "children": [
     {
       "name": "White (+100)",
-      "area": "White (+100)",
+      "area": "physics",
       "base_factor": 1.0,
       "base_weight": 0.0,
       "feature_unlocks": [],
