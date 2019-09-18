@@ -11,7 +11,7 @@
   "potential": [],
   "children": [
     {
-      "name": "White (+100)",
+      "name": "physics",
       "area": "physics",
       "base_factor": 1.0,
       "base_weight": 0.0,
