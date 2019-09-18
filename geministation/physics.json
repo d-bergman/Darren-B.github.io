@@ -32,7 +32,7 @@
           "area": "physics",
           "base_factor": 1.0,
           "base_weight": 0.0,
-          "category": "Particles",
+          "category": "Weapons",
           "cost": "$500",
           "feature_unlocks": [
             "<b>Component</b>: Large Red Laser",
