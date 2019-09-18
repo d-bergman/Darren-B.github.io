@@ -11,8 +11,8 @@
   "potential": [],
   "children": [
     {
-      "name": "physics",
-      "area": "physics",
+      "name": "White (+100)",
+      "area": "White (+100)",
       "base_factor": 1.0,
       "base_weight": 0.0,
       "feature_unlocks": [],
@@ -26,14 +26,14 @@
       "potential": [],
       "children": [
         {
-          "key": "tech_lasers_1",
-          "name": "Red Lasers",
-          "description": "Laser weapons fire focused beams of light at targets, causing damage through the generation of intense heat.",
+          "key": "blaster_1_blue",
+          "name": "Basica Blaster Cannon",
+          "description": "It shoots; what more do you want?",
           "area": "physics",
           "base_factor": 1.0,
           "base_weight": 0.0,
           "category": "Particles",
-          "cost": 0,
+          "cost": "$500",
           "feature_unlocks": [
             "<b>Component</b>: Large Red Laser",
             "<b>Component</b>: Medium Red Laser",
