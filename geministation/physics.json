@@ -27,18 +27,14 @@
       "children": [
         {
           "key": "blaster_1_blue",
-          "name": "Basic Blaster Cannon I",
+          "name": "Blasters",
           "description": "Info: It shoots; what more do you want?",
           "area": "physics",
           "base_factor": 1.0,
           "base_weight": 0.0,
           "category": "Weapons",
-          "cost": "$500",
-          "feature_unlocks": [
-            "<b>Component</b>: Large Red Laser",
-            "<b>Component</b>: Medium Red Laser",
-            "<b>Component</b>: Small Red Laser"
-          ],
+          "cost": 0,
+          "feature_unlocks": [],
           "is_dangerous": false,
           "is_rare": false,
           "is_start_tech": true,
@@ -49,18 +45,19 @@
           "potential": [],
           "children": [
             {
-              "key": "tech_lasers_2",
-              "name": "Blue Lasers",
-              "description": "More powerful than red lasers, these blue variants emit electromagnetic radiation at a wavelength that appears blue or violet to most organics.",
+              "key": "blaster_1_blue",
+              "name": "Overheated Blaster Cannon",
+              "description": "Subject to easily overheating, this blaster cannon adds a minor damage increase to all successful attacks.",
               "area": "physics",
               "base_factor": 1.0,
               "base_weight": 95.0,
-              "category": "Particles",
-              "cost": 750,
+              "category": "Weapons",
+              "cost": "$250",
               "feature_unlocks": [
-                "<b>Component</b>: Large Blue Laser",
-                "<b>Component</b>: Medium Blue Laser",
-                "<b>Component</b>: Small Blue Laser"
+                "<b>Req Level</b>: 2",
+                "<b>Stat</b>: +1 Damage",
+                "<b>Item Level</b>: --"
+                "<b>ID</b>: 2"
               ],
               "is_dangerous": false,
               "is_rare": false,
@@ -75,11 +72,7 @@
                   "key": "tech_lasers_1"
                 }
               ],
-              "weight_modifiers": [
-                "(×<b style='color:lime'>1.25</b>) Has Militarist Ethic",
-                "(×<b style='color:lime'>1.5</b>) Has Fanatic Militarist Ethic",
-                "(×<b style='color:lime'>1.25</b>) Research Leader (Physics): <br/>    •   Is Particles Expert"
-              ],
+              "weight_modifiers": [],
               "potential": [],
               "children": [
                 {
