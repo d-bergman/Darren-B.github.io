@@ -63,16 +63,20 @@
               "is_rare": false,
               "is_start_tech": false,
               "prerequisites": [
-                "blaster_1_blue"
+                "tech_lasers_1"
               ],
               "tier": 1,
               "prerequisites_names": [
                 {
-                  "name": "Blasters",
-                  "key": "blaster_1_blue"
+                  "name": "Red Lasers",
+                  "key": "tech_lasers_1"
                 }
               ],
-              "weight_modifiers": [],
+              "weight_modifiers": [
+                "(×<b style='color:lime'>1.25</b>) .",
+                "(×<b style='color:lime'>1.5</b>) .",
+                "(×<b style='color:lime'>1.25</b>) Research Leader (Physics): <br/>    •   Is Particles Expert"
+              ],
               "potential": [],
               "children": [
                 {
