@@ -55,8 +55,8 @@
               "cost": "$250",
               "feature_unlocks": [
                 "<b>Required Level</b>: 2",
-                "<b>Component</b>: Medium Blue Laser",
-                "<b>Component</b>: Small Blue Laser"
+                "<b>Stat</b>: +1 Damage",
+                "<b>Item Level</b>: XX"
               ],
               "is_dangerous": false,
               "is_rare": false,
