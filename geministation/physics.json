@@ -63,13 +63,13 @@
               "is_rare": false,
               "is_start_tech": false,
               "prerequisites": [
-                "tech_lasers_1"
+                "blaster_1_blue"
               ],
               "tier": 1,
               "prerequisites_names": [
                 {
-                  "name": "Red Lasers",
-                  "key": "tech_lasers_1"
+                  "name": "Blasters",
+                  "key": "blaster_1_blue"
                 }
               ],
               "weight_modifiers": [],
