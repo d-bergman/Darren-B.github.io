@@ -54,9 +54,9 @@
               "category": "Weapons",
               "cost": "$250",
               "feature_unlocks": [
-                "<b>Req Level</b>: 2",
-                "<b>Stat</b>: +1 Damage",
-                "<b>Item Level</b>: XX"
+                "<b>Component</b>: Large Blue Laser",
+                "<b>Component</b>: Medium Blue Laser",
+                "<b>Component</b>: Small Blue Laser"
               ],
               "is_dangerous": false,
               "is_rare": false,
