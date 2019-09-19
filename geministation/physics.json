@@ -51,10 +51,10 @@
               "area": "physics",
               "base_factor": 1.0,
               "base_weight": 95.0,
-              "category": "Weapons",
+              "category": "Weaponss",
               "cost": "$250",
               "feature_unlocks": [
-                "<b>Component</b>: Large Blue Laser",
+                "<b>Required Level</b>: 2",
                 "<b>Component</b>: Medium Blue Laser",
                 "<b>Component</b>: Small Blue Laser"
               ],
