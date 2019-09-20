@@ -86,7 +86,7 @@
               "children": [
                 {
                   "key": "blaster_1_blue",
-                  "name": "Earthling Blaster",
+                  "name": "Earthling Blaster blah",
                   "description": "Specificially designed to shoot at people of Earth.",
                   "area": "weapons",
                   "base_factor": 1.0,
@@ -116,10 +116,8 @@
               ]
               
             }
-          ],
+          ]
           
-          "is_event": false,
-          "source": "vanilla"
         }
       ],
       "is_event": false,
