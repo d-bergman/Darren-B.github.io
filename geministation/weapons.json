@@ -150,7 +150,10 @@
               "key": "tech_lasers_1"
             }
           ],
-          "potential": []
+          "potential": [],
+          "children": [],
+          "is_event": false,
+          "source": "vanilla"
         }
       ],
       "is_event": false,
