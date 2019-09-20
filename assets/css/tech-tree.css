@@ -9,6 +9,8 @@ abbr,acronym { border:0; }
 
 body {
     background-image:url("login_bg2.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 /* optional Container STYLES */
 .chart { border: none; overflow: scroll}
