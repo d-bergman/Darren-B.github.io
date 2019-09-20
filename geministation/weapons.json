@@ -71,11 +71,6 @@
                   "key": "tech_lasers_1"
                 }
               ],
-              "weight_modifiers": [
-                "(×<b style='color:lime'>1.25</b>) Has Militarist Ethic",
-                "(×<b style='color:lime'>1.5</b>) Has Fanatic Militarist Ethic",
-                "(×<b style='color:lime'>1.25</b>) Research Leader (Physics): <br/>    •   Is Particles Expert"
-              ],
               "potential": [],
               "children": [
                 {

@@ -58,13 +58,14 @@ function setup(tech) {
     var techClass = (tech.is_dangerous ? ' dangerous' : '')
         + (!tech.is_dangerous && tech.is_rare ? ' rare' : '');
 
+    console.log(techClass);
     var tmpl = $.templates("#node-template");
     var html = tmpl.render(tech);
 
     tech.HTMLid = tech.key;
     tech.HTMLclass = tech.area + techClass;
     tech.innerHTML = html;
-
+    console.log(tech.HTMLclass);
     $(tech.children).each(function(i, node){
         setup(node);
     });

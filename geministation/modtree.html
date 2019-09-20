@@ -71,10 +71,6 @@
     {{/if}}
     </p>
     <div class="extra-data">
-    {{if weight_modifiers.length > 0}}
-        <div class="tooltip-header">Weight Modifiers</div>
-        <div class="tooltip-content"><pre>{{:weight_modifiers.join('<br/>')}}</pre></div>
-    {{/if}}
     {{if potential.length > 0}}
         <div class="tooltip-header">Requirements</div>
         <div class="tooltip-content"><pre>{{:potential.join('<br/>')}}</pre></div>
@@ -93,7 +89,7 @@
         </div>
     {{/if}}
     {{if feature_unlocks.length > 0}}
-        <div class="tooltip-header">Research Effects</div>
+        <div class="tooltip-header">Mod Info</div>
         <div class="tooltip-content">{{:feature_unlocks.join('<br/>')}}</div>
     {{/if}}
     </div>
