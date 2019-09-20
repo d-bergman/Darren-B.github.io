@@ -230,7 +230,7 @@ span.engineering-research::before {
 
 .tech.weapons {
     border-color: #fff;
-    background-image: url("tech_bg_dangerous.png");
+    background-image: url("tech_bg_white.png");
 }
 
 .tech.dangerous {
