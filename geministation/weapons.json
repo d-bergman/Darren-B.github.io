@@ -32,7 +32,7 @@
           "area": "weapons",
           "base_factor": 1.0,
           "base_weight": 95.0,
-          "category": "Weaponss",
+          "category": "Weapons",
           "cost": "$250",
           "feature_unlocks": [
             "<b>Required Level</b>: 2",
@@ -55,18 +55,19 @@
           "potential": [],
           "children": [
             {
-              "key": "tech_lasers_3",
-              "name": "UV Lasers",
-              "description": "Ultraviolet lasers are an updated and more powerful version of their blue predecessors. Accurate and destructive, these weapons are capable of inflicting great damage.",
+              "key": "blaster_1_blue",
+              "name": "Balanced Blaster Cannon",
+              "description": "This blaster cannon grants a minor increase to attack and damage.",
               "area": "weapons",
               "base_factor": 1.0,
               "base_weight": 85.0,
-              "category": "Particles",
-              "cost": 1500,
+              "category": "Weapons",
+              "cost": "$500",
               "feature_unlocks": [
-                "<b>Component</b>: Large UV Laser",
-                "<b>Component</b>: Medium UV Laser",
-                "<b>Component</b>: Small UV Laser"
+                "<b>Required Level</b>: 2",
+                "<b>Stat</b>: <b style='color:lime'>+1</b> Damage",
+                "<b>Stat</b>: <b style='color:lime'>+1</b> Attack",
+                "<b>Item Level</b>: XX"
               ],
               "is_dangerous": false,
               "is_rare": false,
