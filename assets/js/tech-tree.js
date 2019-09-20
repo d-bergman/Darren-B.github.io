@@ -83,7 +83,7 @@ function _load(jsonData) {
 }
 
 function load_tree() {
-    $.getJSON('physics.json', function(jsonData) {
+    $.getJSON('weapons.json', function(jsonData) {
         setup(jsonData);
         _load(jsonData);
     });
