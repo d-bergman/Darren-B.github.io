@@ -86,17 +86,16 @@
               "children": [
                 {
                   "key": "blaster_1_blue",
-                  "name": "Balanced Blaster Cannon II",
-                  "description": "This blaster cannon grants a minor increase to attack and damage.",
+                  "name": "Earthling Blaster",
+                  "description": "Specificially designed to shoot at people of Earth.",
                   "area": "weapons",
                   "base_factor": 1.0,
                   "base_weight": 85.0,
                   "category": "Weapons",
-                  "cost": "$500",
+                  "cost": "$1000",
                   "feature_unlocks": [
                     "<b>Required Level</b>: 2",
-                    "<b>Stat</b>: <b style='color:lime'>+1</b> Damage",
-                    "<b>Stat</b>: <b style='color:lime'>+1</b> Attack",
+                    "<b>Stat</b>: <b style='color:lime'>+3</b> Damage",
                     "<b>Item Level</b>: XX"
                   ],
                   "is_dangerous": false,
