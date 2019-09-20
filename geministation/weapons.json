@@ -9,6 +9,21 @@
   "prerequisites_names": [],
   "weight_modifiers": [],
   "potential": [],
+  "children": [
+    {
+      "name": "weapons",
+      "area": "weapons",
+      "base_factor": 1.0,
+      "base_weight": 0.0,
+      "feature_unlocks": [],
+      "is_dangerous": false,
+      "is_rare": false,
+      "is_start_tech": false,
+      "prerequisites": [],
+      "tier": 0,
+      "prerequisites_names": [],
+      "weight_modifiers": [],
+      "potential": [],
       "children": [
         {
           "key": "blaster_1_blue",
@@ -36,7 +51,7 @@
               "area": "weapons",
               "base_factor": 1.0,
               "base_weight": 95.0,
-              "category": "Weapons",
+              "category": "Weaponss",
               "cost": "$250",
               "feature_unlocks": [
                 "<b>Required Level</b>: 2",
@@ -100,9 +115,11 @@
       "source": "vanilla"
     
    }],
-  
-              
+  "is_event": false,
+  "source": "vanilla"
+  }],
 
+              
   "is_event": false,
   "source": "vanilla"
 }
