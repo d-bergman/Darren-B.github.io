@@ -26,78 +26,77 @@
       "potential": [],
       "children": [
         {
-              "key": "blaster_1_blue",
-              "name": "Overheated Blaster Cannon",
-              "description": "Subject to easily overheating, this blaster cannon adds a minor damage increase to all successful attacks.",
+          "key": "blaster_1_blue",
+          "name": "Overheated Blaster Cannon",
+          "description": "Subject to easily overheating, this blaster cannon adds a minor damage increase to all successful attacks.",
+          "area": "weapons",
+          "base_factor": 1.0,
+          "base_weight": 95.0,
+          "category": "Weaponss",
+          "cost": "$250",
+          "feature_unlocks": [
+            "<b>Required Level</b>: 2",
+            "<b>Stat</b>: <b style='color:lime'>+1</b> Damage",
+            "<b>Item Level</b>: XX"
+          ],
+          "is_dangerous": false,
+          "is_rare": false,
+          "is_start_tech": false,
+          "prerequisites": [
+            "tech_lasers_1"
+          ],
+          "tier": 1,
+          "prerequisites_names": [
+            {
+              "name": "Red Lasers",
+              "key": "tech_lasers_1"
+            }
+          ],
+          "potential": [],
+          "children": [
+            {
+              "key": "tech_lasers_3",
+              "name": "UV Lasers",
+              "description": "Ultraviolet lasers are an updated and more powerful version of their blue predecessors. Accurate and destructive, these weapons are capable of inflicting great damage.",
               "area": "weapons",
               "base_factor": 1.0,
-              "base_weight": 95.0,
-              "category": "Weaponss",
-              "cost": "$250",
+              "base_weight": 85.0,
+              "category": "Particles",
+              "cost": 1500,
               "feature_unlocks": [
-                "<b>Required Level</b>: 2",
-                "<b>Stat</b>: <b style='color:lime'>+1</b> Damage",
-                "<b>Item Level</b>: XX"
+                "<b>Component</b>: Large UV Laser",
+                "<b>Component</b>: Medium UV Laser",
+                "<b>Component</b>: Small UV Laser"
               ],
               "is_dangerous": false,
               "is_rare": false,
               "is_start_tech": false,
               "prerequisites": [
-                "tech_lasers_1"
+                "tech_lasers_2"
               ],
-              "tier": 1,
+              "tier": 2,
               "prerequisites_names": [
                 {
-                  "name": "Red Lasers",
-                  "key": "tech_lasers_1"
+                  "name": "Blue Lasers",
+                  "key": "tech_lasers_2"
                 }
               ],
-              "potential": [],
-              "children": [
-                {
-                  "key": "tech_lasers_3",
-                  "name": "UV Lasers",
-                  "description": "Ultraviolet lasers are an updated and more powerful version of their blue predecessors. Accurate and destructive, these weapons are capable of inflicting great damage.",
-                  "area": "weapons",
-                  "base_factor": 1.0,
-                  "base_weight": 85.0,
-                  "category": "Particles",
-                  "cost": 1500,
-                  "feature_unlocks": [
-                    "<b>Component</b>: Large UV Laser",
-                    "<b>Component</b>: Medium UV Laser",
-                    "<b>Component</b>: Small UV Laser"
-                  ],
-                  "is_dangerous": false,
-                  "is_rare": false,
-                  "is_start_tech": false,
-                  "prerequisites": [
-                    "tech_lasers_2"
-                  ],
-                  "tier": 2,
-                  "prerequisites_names": [
-                    {
-                      "name": "Blue Lasers",
-                      "key": "tech_lasers_2"
-                    }
-                  ],
-                  "weight_modifiers": [
-                    "(×<b style='color:lime'>1.25</b>) Has Militarist Ethic",
-                    "(×<b style='color:lime'>1.5</b>) Has Fanatic Militarist Ethic",
-                    "(×<b style='color:lime'>1.25</b>) Research Leader (Physics): <br/>    •   Is Particles Expert"
-                  ],
-                  "potential": []
-                }],
-          
+              "weight_modifiers": [
+                "(×<b style='color:lime'>1.25</b>) Has Militarist Ethic",
+                "(×<b style='color:lime'>1.5</b>) Has Fanatic Militarist Ethic",
+                "(×<b style='color:lime'>1.25</b>) Research Leader (Physics): <br/>    •   Is Particles Expert"
+              ],
+              "potential": []
+            }
+          ],
+          "is_event": false,
+          "source": "vanilla"
+        }
+      ],
       "is_event": false,
       "source": "vanilla"
-    
-   }],
-  "is_event": false,
-  "source": "vanilla"
-  }],
-  
-  
+    }
+  ],
   "is_event": false,
   "source": "vanilla"
 }
