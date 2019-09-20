@@ -75,17 +75,12 @@
               "prerequisites": [
                 "tech_lasers_2"
               ],
-              "tier": 1,
+              "tier": 2,
               "prerequisites_names": [
                 {
                   "name": "Blue Lasers",
                   "key": "tech_lasers_2"
                 }
-              ],
-              "weight_modifiers": [
-                "(×<b style='color:lime'>1.25</b>) Has Militarist Ethic",
-                "(×<b style='color:lime'>1.5</b>) Has Fanatic Militarist Ethic",
-                "(×<b style='color:lime'>1.25</b>) Research Leader (Physics): <br/>    •   Is Particles Expert"
               ],
               "potential": []
             }
