@@ -27,7 +27,7 @@
       "children": [
         {
           "key": "blaster_1_blue",
-          "name": "Overheated Blaster Cannon",
+          "name": "Overheated Blaster Cannon first line",
           "description": "Subject to easily overheating, this blaster cannon adds a minor damage increase to all successful attacks.",
           "area": "weapons",
           "base_factor": 1.0,
@@ -111,13 +111,46 @@
                       "key": "tech_lasers_2"
                     }
                   ],
-                  "potential": []
+                  "children": [],
+                  "is_event": false,
+                  "source": "vanilla"
                 }
-              ]
-              
+              ],
+              "is_event": false,
+              "source": "vanilla"
             }
-          ]
-          
+          ],
+              "is_event": false,
+              "source": "vanilla" 
+        },
+        {
+          "key": "blaster_1_blue",
+          "name": "Overheated Blaster Cannon second line",
+          "description": "Subject to easily overheating, this blaster cannon adds a minor damage increase to all successful attacks.",
+          "area": "weapons",
+          "base_factor": 1.0,
+          "base_weight": 95.0,
+          "category": "Weapons",
+          "cost": "$250",
+          "feature_unlocks": [
+            "<b>Required Level</b>: 2",
+            "<b>Stat</b>: <b style='color:lime'>+1</b> Damage",
+            "<b>Item Level</b>: XX"
+          ],
+          "is_dangerous": false,
+          "is_rare": false,
+          "is_start_tech": true,
+          "prerequisites": [
+            "tech_lasers_1"
+          ],
+          "tier": 1,
+          "prerequisites_names": [
+            {
+              "name": "Red Lasers",
+              "key": "tech_lasers_1"
+            }
+          ],
+          "potential": []
         }
       ],
       "is_event": false,
