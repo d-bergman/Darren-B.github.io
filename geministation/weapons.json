@@ -26,25 +26,6 @@
       "potential": [],
       "children": [
         {
-          "key": "blaster_1_blue",
-          "name": "Blasters",
-          "description": "Info: It shoots; what more do you want?",
-          "area": "weapons",
-          "base_factor": 1.0,
-          "base_weight": 0.0,
-          "category": "Weapons",
-          "cost": 0,
-          "feature_unlocks": [],
-          "is_dangerous": false,
-          "is_rare": false,
-          "is_start_tech": true,
-          "prerequisites": [],
-          "tier": 0,
-          "prerequisites_names": [],
-          "weight_modifiers": [],
-          "potential": [],
-          "children": [
-            {
               "key": "blaster_1_blue",
               "name": "Overheated Blaster Cannon",
               "description": "Subject to easily overheating, this blaster cannon adds a minor damage increase to all successful attacks.",
@@ -107,10 +88,7 @@
                   ],
                   "potential": []
                 }],
-          "is_event": false,
-          "source": "vanilla"      
-      
-      }],
+          
       "is_event": false,
       "source": "vanilla"
     
@@ -118,8 +96,8 @@
   "is_event": false,
   "source": "vanilla"
   }],
-
-              
+  
+  
   "is_event": false,
   "source": "vanilla"
 }
