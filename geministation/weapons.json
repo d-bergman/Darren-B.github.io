@@ -105,7 +105,7 @@
                   "prerequisites": [
                     "tech_lasers_2"
                   ],
-                  "tier": 2,
+                  "tier": 3,
                   "prerequisites_names": [
                     {
                       "name": "Blue Lasers",
