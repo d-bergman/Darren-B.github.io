@@ -114,7 +114,9 @@
                   ],
                   "potential": []
                 }
-              ]
+              ],
+              "is_event": false,
+              "source": "vanilla"
             }
           ],
           
