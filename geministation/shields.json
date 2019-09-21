@@ -5,7 +5,7 @@
   "is_dangerous": false,
   "is_rare": false,
   "potential": [],
-  "reputation":"",
+  "reputation":[],
   "children": [
     {
       "name": "shields",
@@ -13,7 +13,7 @@
       "base_factor": 1.0,
       "item_level": 0.0,
       "feature_unlocks": [],
-      "reputation":"",
+      "reputation":[],
       "is_dangerous": false,
       "is_rare": false,
       "potential": [],
@@ -33,7 +33,7 @@
             "<b style='color:lime'>+25</b> Shield",
             "<b>Location: £geministation£</b> "
           ],
-          "reputation":"None",
+          "reputation":["<b>None</b>"],
           "is_dangerous": false,
           "is_rare": false,
           "potential": [],

@@ -73,8 +73,10 @@
         <div class="tooltip-header">Mod Info</div>
         <div class="tooltip-content">{{:feature_unlocks.join('<br/>')}}</div>
     {{/if}}
+    {{if reputation.length > 0}}
     <div class="tooltip-header">Reputation Required</div>
     <div class="tooltip-content">{{:reputation.join('<br/>')}}</div>
+    {{/if}}
   </div>
   </script>
 </head>
