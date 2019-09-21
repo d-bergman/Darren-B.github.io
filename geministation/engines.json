@@ -1,0 +1,44 @@
+{
+  "base_factor": 1.0,
+  "item_level": 0.0,
+  "feature_unlocks": [],
+  "is_dangerous": false,
+  "is_rare": false,
+  "potential": [],
+  "children": [
+    {
+      "name": "engines",
+      "area": "engines",
+      "base_factor": 1.0,
+      "item_level": 0.0,
+      "feature_unlocks": [],
+      "is_dangerous": false,
+      "is_rare": false,
+      "potential": [],
+      "children": [
+        {
+          "key": "engine_1_white",
+          "name": "Tuned Impulse Drives",
+          "description": "Tuned for speed....a little speed.",
+          "area": "engines",
+          "base_factor": 1.0,
+          "item_level": 115.0,
+          "category": "Engines",
+          "cost": "$500",
+          "feature_unlocks": [
+            "<b>ID</b>: 51",
+            "<b>Required Level</b>: 1",
+            "<b style='color:lime'>+1%</b> Engine Efficiency",
+            "<b>Location: £geministation£</b> "
+          ],
+          "is_dangerous": false,
+          "is_rare": false,
+          "potential": [],
+          "children": []
+        }
+      ]
+
+    }
+  ]
+
+}
