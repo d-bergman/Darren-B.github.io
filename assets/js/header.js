@@ -17,11 +17,11 @@ $(document).ready(function(){
         $(this).parent().removeClass("float-Lowlight");
         $(this).parent().addClass("float-Highlight");
         
-        if($(this).parent().hasClass("float-Weapons"))
+        if($(this).parent().hasClass("float-Armor"))
         {
-            $("#tech-tree-weapons").removeClass("float-NoDisplay");
+            $("#tech-tree-weapons").addClass("float-NoDisplay");
             $("#tech-tree-shields").addClass("float-NoDisplay");
-            $("#tech-tree-armor").addClass("float-NoDisplay");
+            $("#tech-tree-armor").removeClass("float-NoDisplay");
             $("#tech-tree-utility").addClass("float-NoDisplay");
         }
         if($(this).parent().hasClass("float-Shields"))
@@ -31,11 +31,11 @@ $(document).ready(function(){
             $("#tech-tree-armor").addClass("float-NoDisplay");
             $("#tech-tree-utility").addClass("float-NoDisplay");
         }
-        if($(this).parent().hasClass("float-Armor"))
+        if($(this).parent().hasClass("float-Weapons"))
         {
-            $("#tech-tree-weapons").addClass("float-NoDisplay");
+            $("#tech-tree-weapons").removeClass("float-NoDisplay");
             $("#tech-tree-shields").addClass("float-NoDisplay");
-            $("#tech-tree-armor").removeClass("float-NoDisplay");
+            $("#tech-tree-armor").addClass("float-NoDisplay");
             $("#tech-tree-utility").addClass("float-NoDisplay");
         }
         if($(this).parent().hasClass("float-Utility"))
