@@ -2,6 +2,7 @@
   "base_factor": 1.0,
   "item_level": 0.0,
   "feature_unlocks": [],
+  "reputation":"",
   "is_dangerous": false,
   "is_rare": false,
   "potential": [],
@@ -12,6 +13,7 @@
       "base_factor": 1.0,
       "item_level": 0.0,
       "feature_unlocks": [],
+      "reputation":"",
       "is_dangerous": false,
       "is_rare": false,
       "potential": [],
@@ -31,6 +33,7 @@
             "<b style='color:lime'>+1</b> Damage",
             "<b>Location: £geministation£</b> "
           ],
+          "reputation":"None",
           "is_dangerous": false,
           "is_rare": false,
           "potential": [],
