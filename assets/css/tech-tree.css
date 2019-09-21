@@ -241,6 +241,25 @@ span.engineering-research::before {
     background-image: url("tech_bg_dangerous.png") !important;
 }
 
+.tech.white{
+    background-image: url("tech_bg_white.png");
+}
+
+.tech.green{
+    background-image: url("tech_bg_green.png");
+}
+
+.tech.blue{
+    background-image: url("tech_bg_blue.png");
+}
+
+.tech.purple{
+    background-image: url("tech_bg_purple.png");
+}   
+
+.tech.orange{
+    background-image: url("tech_bg_orange.png");
+}
 span.physics-research::before {
     background: url("../img/physics_research.png") center center no-repeat;
     content:  url("../img/blank11px.png");
