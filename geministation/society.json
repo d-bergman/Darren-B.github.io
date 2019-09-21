@@ -27,7 +27,7 @@
       "children": [
         {
           "key": "tech_industrial_farming",
-          "name": "Industrial Agriculture blah",
+          "name": "Industrial Agriculture",
           "description": "Large-scale industrial farms growing nutrient-rich produce allows a civilization to grow its population manifold.",
           "area": "society",
           "base_factor": 1.0,

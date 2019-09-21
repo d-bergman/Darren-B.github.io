@@ -9,7 +9,6 @@
   "prerequisites_names": [],
   "weight_modifiers": [],
   "potential": [],
-  
   "children": [
     {
       "name": "weapons",
@@ -54,71 +53,11 @@
             }
           ],
           "potential": [],
-          "children": [
-            {
-              "key": "blaster_1_blue",
-              "name": "Balanced Blaster Cannon",
-              "description": "This blaster cannon grants a minor increase to attack and damage.",
-              "area": "weapons",
-              "base_factor": 1.0,
-              "base_weight": 85.0,
-              "category": "Weapons",
-              "cost": "$500",
-              "feature_unlocks": [
-                "<b>Required Level</b>: 2",
-                "<b>Stat</b>: <b style='color:lime'>+1</b> Damage",
-                "<b>Stat</b>: <b style='color:lime'>+1</b> Attack",
-                "<b>Item Level</b>: XX"
-              ],
-              "is_dangerous": false,
-              "is_rare": false,
-              "is_start_tech": false,
-              "prerequisites": [
-                "tech_lasers_2"
-              ],
-              "tier": 2,
-              "prerequisites_names": [
-                {
-                  "name": "Blue Lasers",
-                  "key": "tech_lasers_2"
-                }
-              ],
-              "potential": [],
-              "children": [
-                {
-                  "key": "blaster_1_blue",
-                  "name": "Earthling Blaster",
-                  "description": "Specificially designed to shoot at people of Earth.",
-                  "area": "weapons",
-                  "base_factor": 1.0,
-                  "base_weight": 85.0,
-                  "category": "Weapons",
-                  "cost": "$1000",
-                  "feature_unlocks": [
-                    "<b>Required Level</b>: 2",
-                    "<b>Stat</b>: <b style='color:lime'>+3</b> Damage",
-                    "<b>Item Level</b>: XX"
-                  ],
-                  "is_dangerous": false,
-                  "is_rare": false,
-                  "is_start_tech": false,
-                  "prerequisites": [
-                    "tech_lasers_2"
-                  ],
-                  "tier": 3,
-                  "prerequisites_names": [
-                    {
-                      "name": "Blue Lasers",
-                      "key": "tech_lasers_2"
-                    }
-                  ],
-                  "children": []
-                }
-              ]
-            }
-          ]
+          "children": []
         }
       ]
+
     }
   ]
+  
 }
