@@ -7,8 +7,8 @@
   "potential": [],
   "children": [
     {
-      "name": "weapons",
-      "area": "weapons",
+      "name": "society",
+      "area": "society",
       "base_factor": 1.0,
       "item_level": 0.0,
       "feature_unlocks": [],
@@ -20,7 +20,7 @@
           "key": "shield_1_white",
           "name": "Salvaged Shield Generator",
           "description": "Subject to easily overheating, this blaster cannon adds a minor damage increase to all successful attacks.",
-          "area": "weapons",
+          "area": "society",
           "base_factor": 1.0,
           "item_level": 115.0,
           "category": "Shields",

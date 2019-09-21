@@ -20,7 +20,7 @@
           "key": "blaster_1_blue",
           "name": "Overheated Blaster Cannon",
           "description": "Subject to easily overheating, this blaster cannon adds a minor damage increase to all successful attacks.",
-          "area": "weapons",
+          "area": "weaponss",
           "base_factor": 1.0,
           "item_level": 115.0,
           "category": "Weapons",
