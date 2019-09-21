@@ -5,7 +5,7 @@
   "is_dangerous": false,
   "is_rare": false,
   "is_start_tech": false,
-  "weight_modifiers": [],
+  "reputation": [],
   "potential": [],
   "children": [
     {
@@ -17,7 +17,7 @@
       "is_dangerous": false,
       "is_rare": false,
       "is_start_tech": false,
-      "weight_modifiers": [],
+      "reputation": [],
       "potential": [],
       "children": [
         {
@@ -33,6 +33,9 @@
             "<b>ID</b>: 2",
             "<b>Required Level</b>: 2",
             "<b style='color:lime'>+1</b> Damage"
+          ],
+          "reputation": [
+            "None"
           ],
           "is_dangerous": false,
           "is_rare": false,
