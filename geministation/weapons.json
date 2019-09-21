@@ -5,8 +5,6 @@
   "is_dangerous": false,
   "is_rare": false,
   "is_start_tech": false,
-  "prerequisites": [],
-  "prerequisites_names": [],
   "weight_modifiers": [],
   "potential": [],
   "children": [
@@ -19,15 +17,13 @@
       "is_dangerous": false,
       "is_rare": false,
       "is_start_tech": false,
-      "prerequisites": [],
       "tier": 0,
-      "prerequisites_names": [],
       "weight_modifiers": [],
       "potential": [],
       "children": [
         {
           "key": "blaster_1_blue",
-          "name": "Overheated Blaster Cannon XX",
+          "name": "Overheated Blaster Cannon X",
           "description": "Subject to easily overheating, this blaster cannon adds a minor damage increase to all successful attacks.",
           "area": "weapons",
           "base_factor": 1.0,
@@ -42,16 +38,7 @@
           "is_dangerous": false,
           "is_rare": false,
           "is_start_tech": true,
-          "prerequisites": [
-            "tech_lasers_1"
-          ],
           "tier": 1,
-          "prerequisites_names": [
-            {
-              "name": "Red Lasers",
-              "key": "tech_lasers_1"
-            }
-          ],
           "potential": [],
           "children": []
         }

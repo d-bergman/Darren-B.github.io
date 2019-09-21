@@ -75,19 +75,6 @@
         <div class="tooltip-header">Requirements</div>
         <div class="tooltip-content"><pre>{{:potential.join('<br/>')}}</pre></div>
     {{/if}}
-    {{if prerequisites.length > 1}}
-        <div class="tooltip-header">Required Technologies</div>
-        <div class="tooltip-content">
-        {{for prerequisites}}
-            <img class="left" height="52" width="52" src="//:0" data-src="../assets/img/{{:}}.png"">
-        {{/for}}
-        <div class="left">
-        {{for prerequisites_names}}
-          {{:name}}<br/>
-        {{/for}}
-        </div>
-        </div>
-    {{/if}}
     {{if feature_unlocks.length > 0}}
         <div class="tooltip-header">Mod Info</div>
         <div class="tooltip-content">{{:feature_unlocks.join('<br/>')}}</div>
