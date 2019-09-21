@@ -34,7 +34,6 @@
             "<b style='color:lime'>+1</b> Damage",
             "<b>ID</b>: 2"
           ],
-          "reputation":"None",
           "is_dangerous": false,
           "is_rare": false,
           "is_start_tech": true,
