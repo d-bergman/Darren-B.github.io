@@ -87,7 +87,7 @@ function load_tree() {
     $.getJSON('weapons.json', function(jsonData) {
         setup(jsonData);
         _load(jsonData);
-    });
+    });/*
     $.getJSON('society.json', function(jsonData) {
         setup(jsonData);
         _load(jsonData);
@@ -106,5 +106,5 @@ function load_tree() {
             $('#tech-tree-anomalies').append(e);
             init_tooltips();
         });
-    });
+    });*/
 }
