@@ -4,7 +4,6 @@
   "feature_unlocks": [],
   "is_dangerous": false,
   "is_rare": false,
-  "is_start_tech": false,
   "weight_modifiers": [],
   "potential": [],
   "children": [
@@ -16,7 +15,6 @@
       "feature_unlocks": [],
       "is_dangerous": false,
       "is_rare": false,
-      "is_start_tech": false,
       "weight_modifiers": [],
       "potential": [],
       "children": [
@@ -26,7 +24,7 @@
           "description": "Subject to easily overheating, this blaster cannon adds a minor damage increase to all successful attacks.",
           "area": "weapons",
           "base_factor": 1.0,
-          "item_level": 1115.0,
+          "item_level": 115.0,
           "category": "Weapons",
           "cost": "$250",
           "feature_unlocks": [
@@ -37,7 +35,6 @@
           ],
           "is_dangerous": false,
           "is_rare": false,
-          "is_start_tech": true,
           "potential": [],
           "children": []
         }
