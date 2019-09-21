@@ -96,7 +96,7 @@ function _load(jsonData) {
 }
 
 function load_tree() {
-    $.getJSON('weapons.json', function(jsonData) {
+    $.getJSON('armor.json', function(jsonData) {
         setup(jsonData);
         _load(jsonData);
     });
@@ -104,7 +104,7 @@ function load_tree() {
         setup(jsonData);
         _load(jsonData);
     });
-    $.getJSON('armor.json', function(jsonData) {
+    $.getJSON('weapons.json', function(jsonData) {
         setup(jsonData);
         _load(jsonData);
     });
