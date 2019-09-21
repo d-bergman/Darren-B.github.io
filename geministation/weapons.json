@@ -26,7 +26,7 @@
           "description": "Subject to easily overheating, this blaster cannon adds a minor damage increase to all successful attacks.",
           "area": "weapons",
           "base_factor": 1.0,
-          "item_level": 94.0,
+          "item_level": 95.0,
           "category": "Weapons",
           "cost": "$250",
           "feature_unlocks": [
