@@ -4,7 +4,6 @@
   "feature_unlocks": [],
   "is_dangerous": false,
   "is_rare": false,
-  "weight_modifiers": [],
   "potential": [],
   "children": [
     {
@@ -15,7 +14,6 @@
       "feature_unlocks": [],
       "is_dangerous": false,
       "is_rare": false,
-      "weight_modifiers": [],
       "potential": [],
       "children": [
         {
@@ -25,7 +23,7 @@
           "area": "weapons",
           "base_factor": 1.0,
           "item_level": 115.0,
-          "category": "Weapons",
+          "category": "Weaponss",
           "cost": "$250",
           "feature_unlocks": [
             "<b>ID</b>: 2",
