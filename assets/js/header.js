@@ -22,35 +22,35 @@ $(document).ready(function(){
             $("#tech-tree-weapons").removeClass("float-NoDisplay");
             $("#tech-tree-shields").addClass("float-NoDisplay");
             $("#tech-tree-armor").addClass("float-NoDisplay");
-            $("#tech-tree-anomalies").addClass("float-NoDisplay");
+            $("#tech-tree-utility").addClass("float-NoDisplay");
         }
         if($(this).parent().hasClass("float-Shields"))
         {
             $("#tech-tree-weapons").addClass("float-NoDisplay");
             $("#tech-tree-shields").removeClass("float-NoDisplay");
             $("#tech-tree-armor").addClass("float-NoDisplay");
-            $("#tech-tree-anomalies").addClass("float-NoDisplay");
+            $("#tech-tree-utility").addClass("float-NoDisplay");
         }
         if($(this).parent().hasClass("float-Armor"))
         {
             $("#tech-tree-weapons").addClass("float-NoDisplay");
             $("#tech-tree-shields").addClass("float-NoDisplay");
             $("#tech-tree-armor").removeClass("float-NoDisplay");
-            $("#tech-tree-anomalies").addClass("float-NoDisplay");
+            $("#tech-tree-utility").addClass("float-NoDisplay");
         }
         if($(this).parent().hasClass("float-All"))
         {
             $("#tech-tree-weapons").removeClass("float-NoDisplay");
             $("#tech-tree-shields").removeClass("float-NoDisplay");
             $("#tech-tree-armor").removeClass("float-NoDisplay");
-            $("#tech-tree-anomalies").addClass("float-NoDisplay");
+            $("#tech-tree-utility").addClass("float-NoDisplay");
         }
-        if($(this).parent().hasClass("float-Anomalies"))
+        if($(this).parent().hasClass("float-Utility"))
         {
             $("#tech-tree-weapons").addClass("float-NoDisplay");
             $("#tech-tree-shields").addClass("float-NoDisplay");
             $("#tech-tree-armor").addClass("float-NoDisplay");
-            $("#tech-tree-anomalies").removeClass("float-NoDisplay");
+            $("#tech-tree-utility").removeClass("float-NoDisplay");
         }
     });
 
