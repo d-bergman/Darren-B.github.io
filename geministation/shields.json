@@ -2,10 +2,11 @@
   "base_factor": 1.0,
   "item_level": 0.0,
   "feature_unlocks": [],
+  "reputation":[],
+  "description":[],
   "is_dangerous": false,
   "is_rare": false,
   "potential": [],
-  "reputation":[],
   "children": [
     {
       "name": "shields",
@@ -14,6 +15,7 @@
       "item_level": 0.0,
       "feature_unlocks": [],
       "reputation":[],
+      "description":[],
       "is_dangerous": false,
       "is_rare": false,
       "potential": [],
@@ -21,7 +23,6 @@
         {
           "key": "shield_1_white",
           "name": "Salvaged Shield Generator",
-          "description": "Subject to easily overheating, this blaster cannon adds a minor damage increase to all successful attacks.",
           "area": "shields",
           "base_factor": 1.0,
           "item_level": 115.0,
@@ -34,6 +35,7 @@
             "<b>Location: £geministation£</b> "
           ],
           "reputation":["<b>None</b>"],
+          "description":["<i>Found floating in space, this shield generator increases shields by 25.</i>"],
           "is_dangerous": false,
           "is_rare": false,
           "potential": [],
