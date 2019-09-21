@@ -50,7 +50,7 @@ $(document).ready(function(){
             $("#tech-tree-weapons").removeClass("float-NoDisplay");
             $("#tech-tree-shields").removeClass("float-NoDisplay");
             $("#tech-tree-armor").removeClass("float-NoDisplay");
-            $("#tech-tree-utility").addClass("float-NoDisplay");
+            $("#tech-tree-utility").removeClass("float-NoDisplay");
         }
         
     });
