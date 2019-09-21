@@ -38,13 +38,6 @@ $(document).ready(function(){
             $("#tech-tree-armor").removeClass("float-NoDisplay");
             $("#tech-tree-utility").addClass("float-NoDisplay");
         }
-        if($(this).parent().hasClass("float-All"))
-        {
-            $("#tech-tree-weapons").removeClass("float-NoDisplay");
-            $("#tech-tree-shields").removeClass("float-NoDisplay");
-            $("#tech-tree-armor").removeClass("float-NoDisplay");
-            $("#tech-tree-utility").addClass("float-NoDisplay");
-        }
         if($(this).parent().hasClass("float-Utility"))
         {
             $("#tech-tree-weapons").addClass("float-NoDisplay");
@@ -52,6 +45,14 @@ $(document).ready(function(){
             $("#tech-tree-armor").addClass("float-NoDisplay");
             $("#tech-tree-utility").removeClass("float-NoDisplay");
         }
+        if($(this).parent().hasClass("float-All"))
+        {
+            $("#tech-tree-weapons").removeClass("float-NoDisplay");
+            $("#tech-tree-shields").removeClass("float-NoDisplay");
+            $("#tech-tree-armor").removeClass("float-NoDisplay");
+            $("#tech-tree-utility").addClass("float-NoDisplay");
+        }
+        
     });
 
     // Make some button go to the top of the page
