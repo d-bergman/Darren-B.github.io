@@ -1,6 +1,5 @@
 {
-  "base_factor": 1.0,
-  "base_weight": 0.0,
+  "item_level": 0.0,
   "feature_unlocks": [],
   "is_dangerous": false,
   "is_rare": false,
@@ -13,8 +12,7 @@
     {
       "name": "weapons",
       "area": "weapons",
-      "base_factor": 1.0,
-      "base_weight": 0.0,
+      "item_level": 0.0,
       "feature_unlocks": [],
       "is_dangerous": false,
       "is_rare": false,
@@ -27,11 +25,10 @@
       "children": [
         {
           "key": "blaster_1_blue",
-          "name": "Overheated Blaster Cannon first line",
+          "name": "Overheated Blaster Cannon",
           "description": "Subject to easily overheating, this blaster cannon adds a minor damage increase to all successful attacks.",
           "area": "weapons",
-          "base_factor": 1.0,
-          "base_weight": 95.0,
+          "item_level": 95.0,
           "category": "Weapons",
           "cost": "$250",
           "feature_unlocks": [
@@ -59,5 +56,5 @@
 
     }
   ]
-  
+
 }
