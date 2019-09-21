@@ -100,11 +100,11 @@ function load_tree() {
         setup(jsonData);
         _load(jsonData);
     });
-    $.getJSON('society.json', function(jsonData) {
+    $.getJSON('shields.json', function(jsonData) {
         setup(jsonData);
         _load(jsonData);
     });
-    $.getJSON('engineering.json', function(jsonData) {
+    $.getJSON('armor.json', function(jsonData) {
         setup(jsonData);
         _load(jsonData);
     });

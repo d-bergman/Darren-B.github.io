@@ -7,8 +7,8 @@
   "potential": [],
   "children": [
     {
-      "name": "society",
-      "area": "society",
+      "name":"armor",
+      "area":"armor",
       "base_factor": 1.0,
       "item_level": 0.0,
       "feature_unlocks": [],
@@ -17,18 +17,18 @@
       "potential": [],
       "children": [
         {
-          "key": "shield_1_white",
-          "name": "Salvaged Shield Generator",
+          "key": "armor_1_white",
+          "name": "Hammered Garbage",
           "description": "Subject to easily overheating, this blaster cannon adds a minor damage increase to all successful attacks.",
-          "area": "society",
+          "area":"armor",
           "base_factor": 1.0,
           "item_level": 115.0,
-          "category": "Shields",
-          "cost": "$500",
+          "category": "Armor",
+          "cost": "$250",
           "feature_unlocks": [
-            "<b>ID</b>: 3",
+            "<b>ID</b>: 4",
             "<b>Required Level</b>: 2",
-            "<b style='color:lime'>+25</b> Shield",
+            "<b style='color:lime'>+15</b> Armor",
             "<b>Location: £geministation£</b> "
           ],
           "is_dangerous": false,

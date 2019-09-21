@@ -24,14 +24,14 @@ $(document).ready(function(){
             $("#tech-tree-engineering").addClass("float-NoDisplay");
             $("#tech-tree-anomalies").addClass("float-NoDisplay");
         }
-        if($(this).parent().hasClass("float-Society"))
+        if($(this).parent().hasClass("float-Shields"))
         {
             $("#tech-tree-weapons").addClass("float-NoDisplay");
             $("#tech-tree-society").removeClass("float-NoDisplay");
             $("#tech-tree-engineering").addClass("float-NoDisplay");
             $("#tech-tree-anomalies").addClass("float-NoDisplay");
         }
-        if($(this).parent().hasClass("float-Engineering"))
+        if($(this).parent().hasClass("float-Armor"))
         {
             $("#tech-tree-weapons").addClass("float-NoDisplay");
             $("#tech-tree-society").addClass("float-NoDisplay");

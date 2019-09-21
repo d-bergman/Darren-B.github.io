@@ -204,7 +204,7 @@ pre {
     font-weight: bold;
 }
 
-.tech.society {
+.tech.shields {
     border-color: #5ACA9C;
     background-image: url("tech_bg_society.png");
 }
@@ -216,7 +216,7 @@ span.society-research::before {
     height: 11px;
 }
 
-.tech.engineering { 
+.tech.armor { 
     border-color: #E29C43;
     background-image: url('tech_bg_engineering.png');
 }
