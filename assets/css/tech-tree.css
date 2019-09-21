@@ -233,6 +233,11 @@ span.engineering-research::before {
     background-image: url("tech_bg_white.png");
 }
 
+.tech.utility {
+    border-color: rgb(207, 11, 11);
+    background-image: url("tech_bg_red.png");
+}
+
 .tech.dangerous {
     background-image: url("tech_bg_dangerous.png") !important;
 }
