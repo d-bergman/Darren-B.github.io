@@ -9,6 +9,7 @@
   "prerequisites_names": [],
   "weight_modifiers": [],
   "potential": [],
+  
   "children": [
     {
       "name": "weapons",
@@ -86,7 +87,7 @@
               "children": [
                 {
                   "key": "blaster_1_blue",
-                  "name": "Earthling Blaster blah",
+                  "name": "Earthling Blaster",
                   "description": "Specificially designed to shoot at people of Earth.",
                   "area": "weapons",
                   "base_factor": 1.0,
@@ -111,23 +112,13 @@
                       "key": "tech_lasers_2"
                     }
                   ],
-                  "children": [],
-                  "is_event": false,
-                  "source": "vanilla"
+                  "children": []
                 }
-              ],
-              "is_event": false,
-              "source": "vanilla"
+              ]
             }
-          ],
-              "is_event": false,
-              "source": "vanilla" 
+          ]
         }
-      ],
-      "is_event": false,
-      "source": "vanilla"
+      ]
     }
-  ],
-  "is_event": false,
-  "source": "vanilla"
+  ]
 }
