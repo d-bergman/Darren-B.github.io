@@ -91,6 +91,7 @@ $(document).ready(function() {
 
 function _load(jsonData) {
     var container = "#tech-tree-" + jsonData.children[0].name;
+    console.log("container, " , container);
     var myconfig = {container: container};
     $.extend(true, myconfig, config);
 
