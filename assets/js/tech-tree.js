@@ -40,16 +40,15 @@ function init_tooltips() {
         functionInit: function(instance, helper){
             var content = $(helper.origin).find('.extra-data');
             console.log("content: ", content);
-            /*
             $(content).find('img').each(function(img, el) {
                 $(el).attr('src',$(el).attr('data-src'));
-            });*/
+            });
             instance.content($('<div class="ui-tooltip">' + $(content).html() + '</div>'));
         },
         functionReady: function(instance, helper) {
             $(helper.tooltip).find('.tooltip-content').each(function(div){
                 var content = $(this).html();
-                console.log("content2: ", content2);
+                console.log("content2: ", content);
                 content = content.replace(new RegExp(/£(\w+)£/,'g'), '<img class="resource" src="../assets/icons/$1.png" />');
                 $(this).html(content);
             });
