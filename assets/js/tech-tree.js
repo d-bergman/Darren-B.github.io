@@ -28,10 +28,10 @@ var config = {
 };
 
 function init_tooltips() {
-    if(complete < 3) {
+    /*if(complete < 3) {
         complete++;
         return;
-    }
+    }*/
 
     $('.node').tooltipster({
         minWidth: 300,
@@ -47,7 +47,7 @@ function init_tooltips() {
         functionReady: function(instance, helper) {
             $(helper.tooltip).find('.tooltip-content').each(function(div){
                 var content = $(this).html();
-                //content = content.replace(new RegExp(/£(\w+)£/,'g'), '<img class="resource" src="../assets/icons/$1.png" />');
+                content = content.replace(new RegExp(/£(\w+)£/,'g'), '<img class="resource" src="../assets/icons/$1.png" />');
                 $(this).html(content);
             });
         }
