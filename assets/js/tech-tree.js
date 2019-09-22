@@ -102,6 +102,7 @@ function load_tree() {
     $.getJSON('armor.json', function(jsonData) {
         setup(jsonData);
         _load(jsonData);
+        init_tooltips();
     });
     $.getJSON('shields.json', function(jsonData) {
         setup(jsonData);
@@ -122,6 +123,6 @@ function load_tree() {
     $.getJSON('utility.json', function(jsonData) {
         setup(jsonData);
         _load(jsonData);
-        init_tooltips()
+        init_tooltips();
     });
 }
