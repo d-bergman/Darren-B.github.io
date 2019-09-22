@@ -233,6 +233,16 @@ span.engineering-research::before {
     background-image: url("tech_bg_white.png");
 }
 
+.tech.sensors {
+    border-color: rgb(31, 17, 240);
+    background-image: url("tech_bg_blue.png");
+}
+
+.tech.engines {
+    border-color: rgb(241, 238, 2);
+    background-image: url("tech_bg_gold.png");
+}
+
 .tech.utility {
     border-color: rgb(207, 11, 11);
     background-image: url("tech_bg_red.png");

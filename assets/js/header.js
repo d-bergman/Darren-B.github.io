@@ -19,37 +19,65 @@ $(document).ready(function(){
         
         if($(this).parent().hasClass("float-Armor"))
         {
-            $("#tech-tree-weapons").addClass("float-NoDisplay");
-            $("#tech-tree-shields").addClass("float-NoDisplay");
             $("#tech-tree-armor").removeClass("float-NoDisplay");
+            $("#tech-tree-shields").addClass("float-NoDisplay");
+            $("#tech-tree-weapons").addClass("float-NoDisplay");
+            $("#tech-tree-sensors").addClass("float-NoDisplay");
+            $("#tech-tree-engines").addClass("float-NoDisplay");
             $("#tech-tree-utility").addClass("float-NoDisplay");
         }
         if($(this).parent().hasClass("float-Shields"))
         {
-            $("#tech-tree-weapons").addClass("float-NoDisplay");
-            $("#tech-tree-shields").removeClass("float-NoDisplay");
             $("#tech-tree-armor").addClass("float-NoDisplay");
+            $("#tech-tree-shields").removeClass("float-NoDisplay");
+            $("#tech-tree-weapons").addClass("float-NoDisplay");
+            $("#tech-tree-sensors").addClass("float-NoDisplay");
+            $("#tech-tree-engines").addClass("float-NoDisplay");
             $("#tech-tree-utility").addClass("float-NoDisplay");
         }
         if($(this).parent().hasClass("float-Weapons"))
         {
-            $("#tech-tree-weapons").removeClass("float-NoDisplay");
-            $("#tech-tree-shields").addClass("float-NoDisplay");
             $("#tech-tree-armor").addClass("float-NoDisplay");
+            $("#tech-tree-shields").addClass("float-NoDisplay");
+            $("#tech-tree-weapons").removeClass("float-NoDisplay");
+            $("#tech-tree-sensors").addClass("float-NoDisplay");
+            $("#tech-tree-engines").addClass("float-NoDisplay");
+            $("#tech-tree-utility").addClass("float-NoDisplay");
+        }
+        if($(this).parent().hasClass("float-Sensors"))
+        {
+            $("#tech-tree-armor").addClass("float-NoDisplay");
+            $("#tech-tree-shields").addClass("float-NoDisplay");
+            $("#tech-tree-weapons").addClass("float-NoDisplay");
+            $("#tech-tree-sensors").removeClass("float-NoDisplay");
+            $("#tech-tree-engines").addClass("float-NoDisplay");
+            $("#tech-tree-utility").addClass("float-NoDisplay");
+        }
+        if($(this).parent().hasClass("float-Engines"))
+        {
+            $("#tech-tree-armor").addClass("float-NoDisplay");
+            $("#tech-tree-shields").addClass("float-NoDisplay");
+            $("#tech-tree-weapons").addClass("float-NoDisplay");
+            $("#tech-tree-sensors").addClass("float-NoDisplay");
+            $("#tech-tree-engines").removeClass("float-NoDisplay");
             $("#tech-tree-utility").addClass("float-NoDisplay");
         }
         if($(this).parent().hasClass("float-Utility"))
         {
-            $("#tech-tree-weapons").addClass("float-NoDisplay");
-            $("#tech-tree-shields").addClass("float-NoDisplay");
             $("#tech-tree-armor").addClass("float-NoDisplay");
+            $("#tech-tree-shields").addClass("float-NoDisplay");
+            $("#tech-tree-weapons").addClass("float-NoDisplay");
+            $("#tech-tree-sensors").addClass("float-NoDisplay");
+            $("#tech-tree-engines").addClass("float-NoDisplay");
             $("#tech-tree-utility").removeClass("float-NoDisplay");
         }
         if($(this).parent().hasClass("float-All"))
         {
-            $("#tech-tree-weapons").removeClass("float-NoDisplay");
-            $("#tech-tree-shields").removeClass("float-NoDisplay");
             $("#tech-tree-armor").removeClass("float-NoDisplay");
+            $("#tech-tree-shields").removeClass("float-NoDisplay");
+            $("#tech-tree-weapons").removeClass("float-NoDisplay");
+            $("#tech-tree-sensors").removeClass("float-NoDisplay");
+            $("#tech-tree-engines").removeClass("float-NoDisplay");
             $("#tech-tree-utility").removeClass("float-NoDisplay");
         }
         

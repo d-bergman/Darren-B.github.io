@@ -108,6 +108,14 @@ function load_tree() {
         setup(jsonData);
         _load(jsonData);
     });
+    $.getJSON('sensors.json', function(jsonData) {
+        setup(jsonData);
+        _load(jsonData);
+    });
+    $.getJSON('engines.json', function(jsonData) {
+        setup(jsonData);
+        _load(jsonData);
+    });
     $.getJSON('utility.json', function(jsonData) {
         setup(jsonData);
         _load(jsonData);
