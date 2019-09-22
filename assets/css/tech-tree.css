@@ -221,7 +221,6 @@ ui-tooltip ul li {
     /* margin-left: 0; */
 }
 
-.ui-tooltip > div > span.weight-modifiers,
 .ui-tooltip > div > span.feature-unlocks {
     white-space: pre;
 }
