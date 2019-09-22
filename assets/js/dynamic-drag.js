@@ -36,13 +36,14 @@
 					e.target == $("#tech-tree").find("svg")[2]
 				  )
 				{
+					console.log("1",e.target);
 					clicked = true;
 					clickY = e.pageY;
 					clickX = e.pageX;
 				}
 				else
 				{
-					//console.log(e.target);
+					console.log("2",e.target);
 					clicked = false;
 				}
 			},
