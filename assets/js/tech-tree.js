@@ -33,7 +33,7 @@ function init_tooltips() {
         return;
     }
 
-    $('.node').tooltipster({
+    $('.tooltip').tooltipster({
         minWidth: 300,
         trigger: 'click',
         maxWidth: 512,
