@@ -72,14 +72,14 @@ function setup(tech) {
     }else if(tech.is_orange){
         techClass = ' orange';
     }*/
-    console.log(techClass);
+    console.log("techclass1",techClass);
     var tmpl = $.templates("#node-template");
     var html = tmpl.render(tech);
 
     tech.HTMLid = tech.key;
     tech.HTMLclass = tech.area + techClass;
     tech.innerHTML = html;
-    console.log(tech.HTMLclass);
+    console.log("techclass 2" , tech.HTMLclass);
     $(tech.children).each(function(i, node){
         setup(node);
     });
