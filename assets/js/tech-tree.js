@@ -49,7 +49,7 @@ function init_tooltips() {
         functionReady: function(instance, helper) {
             $(helper.tooltip).find('.tooltip-content').each(function(div){
                 var content = $(this).html();
-                console.log("content: ", content2);
+                console.log("content2: ", content2);
                 content = content.replace(new RegExp(/£(\w+)£/,'g'), '<img class="resource" src="../assets/icons/$1.png" />');
                 $(this).html(content);
             });
