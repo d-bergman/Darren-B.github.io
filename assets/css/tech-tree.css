@@ -230,10 +230,6 @@ pre {
     font-family: 'Arimo', Verdana;
 }
 
-.tooltip-content {
-
-}
-
 .tooltip-header {
     width: 100%;
     color: #f59f17;
@@ -245,23 +241,9 @@ pre {
     background-image: url("tech_bg_society.png");
 }
 
-span.society-research::before {
-    background: url("../img/society_research.png") center center no-repeat;
-    content:  url("../img/blank11px.png");
-    width: 11px;
-    height: 11px;
-}
-
 .tech.armor { 
     border-color: #E29C43;
     background-image: url('tech_bg_engineering.png');
-}
-
-span.engineering-research::before {
-    background: url("../img/engineering_research.png") center center no-repeat;
-    content:  url("../img/blank11px.png");
-    width: 11px;
-    height: 11px;
 }
 
 .tech.weapons {
@@ -310,12 +292,6 @@ span.engineering-research::before {
 
 .tech.orange{
     background-image: url("tech_bg_orange.png");
-}
-span.physics-research::before {
-    background: url("../img/physics_research.png") center center no-repeat;
-    content:  url("../img/blank11px.png");
-    width: 11px;
-    height: 11px;
 }
 
 .tech img {

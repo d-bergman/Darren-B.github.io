@@ -65,29 +65,29 @@
     {{/if}}
     </p>
     <div class="extra-data">   
-    {{if potential.length > 0}}
-        <div class="tooltip-header">Requirements</div>
-        <div class="tooltip-content"><pre>{{:potential.join('<br/>')}}</pre></div>
-    {{/if}}
-    {{if feature_unlocks.length > 0}}
-        <div class="tooltip-header">Mod Info</div>
-        <div class="tooltip-content">{{:feature_unlocks.join('<br/>')}}</div>
-    {{/if}}
-    {{if reputation.length > 0}}
-    <div class="tooltip-header">Reputation Required</div>
-    <div class="tooltip-content">{{:reputation.join('<br/>')}}</div>
-    {{/if}}
-    {{if description.length > 0}}
-    <div class="tooltip-header">Description</div>
-    <div class="tooltip-content">{{:description}}</div>
-    {{/if}}
-  </div>
+      {{if potential.length > 0}}
+          <div class="tooltip-header">Requirements</div>
+          <div class="tooltip-content"><pre>{{:potential.join('<br/>')}}</pre></div>
+      {{/if}}
+      {{if feature_unlocks.length > 0}}
+          <div class="tooltip-header">Mod Info</div>
+          <div class="tooltip-content">{{:feature_unlocks.join('<br/>')}}</div>
+      {{/if}}
+      {{if reputation.length > 0}}
+        <div class="tooltip-header">Reputation Required</div>
+        <div class="tooltip-content">{{:reputation.join('<br/>')}}</div>
+      {{/if}}
+      {{if description.length > 0}}
+        <div class="tooltip-header">Description</div>
+        <div class="tooltip-content">{{:description}}</div>
+      {{/if}}
+    </div>
   </script>
 </head>
 
 <body>
 <div class="fullscreen-bg">
-    <video loop muted autoplay poster="login_bg2.jpg" class="fullscreen-bg__video">
+    <video loop muted autoplay poster="../assets/css/login_bg2.jpg" class="fullscreen-bg__video">
       <source src="../assets/videos/stars.mp4" type="video/mp4">
   </video>
 <ul class="float-Holder">
