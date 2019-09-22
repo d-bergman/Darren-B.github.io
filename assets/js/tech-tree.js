@@ -28,10 +28,10 @@ var config = {
 };
 
 function init_tooltips() {
-    /*if(complete < 3) {
+    if(complete < 3) {
         complete++;
         return;
-    }*/
+    }
 
     $('.node').tooltipster({
         minWidth: 300,
