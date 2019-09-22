@@ -122,5 +122,6 @@ function load_tree() {
     $.getJSON('utility.json', function(jsonData) {
         setup(jsonData);
         _load(jsonData);
+        init_tooltips()
     });
 }
