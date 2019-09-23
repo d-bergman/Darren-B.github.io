@@ -72,7 +72,6 @@ function setup(tech) {
     }else if(tech.is_orange){
         techClass = ' orange';
     }*/
-    console.log("techclass1",techClass);
     var tmpl = $.templates("#node-template");
     var html = tmpl.render(tech);
 
@@ -91,7 +90,6 @@ $(document).ready(function() {
 
 function _load(jsonData) {
     var container = "#tech-tree-" + jsonData.children[0].name;
-    console.log("container, " , container);
     var myconfig = {container: container};
     $.extend(true, myconfig, config);
 
@@ -102,31 +100,25 @@ function load_tree() {
     $.getJSON('armor.json', function(jsonData) {
         setup(jsonData);
         _load(jsonData);
-        init_tooltips();
     });
     $.getJSON('shields.json', function(jsonData) {
         setup(jsonData);
         _load(jsonData);
-        init_tooltips();
     });
     $.getJSON('weapons.json', function(jsonData) {
         setup(jsonData);
         _load(jsonData);
-        init_tooltips();
     });
     $.getJSON('sensors.json', function(jsonData) {
         setup(jsonData);
         _load(jsonData);
-        init_tooltips();
     });
     $.getJSON('engines.json', function(jsonData) {
         setup(jsonData);
         _load(jsonData);
-        init_tooltips();
     });
     $.getJSON('utility.json', function(jsonData) {
         setup(jsonData);
         _load(jsonData);
-        init_tooltips();
     });
 }
