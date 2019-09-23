@@ -57,35 +57,60 @@
           "is_dangerous": false,
           "is_rare": false,
           "potential": [],
-          "children": [
-            {
-              "key": "armor_1_white",
-              "name": "Hammered Garbage I",
-              "area":"armor",
-              "base_factor": 1.0,
-              "item_level": 115.0,
-              "category": "Armor",
-              "cost": "$250",
-              "feature_unlocks": [
-                "<b>ID</b>: 4",
-                "<b>Required Level</b>: 2",
-                "<b style='color:lime'>+15</b> Armor",
-                "<b>Location: £gemini£</b> "
-              ],
-              "reputation":["<b>None</b>"],
-              "description": ["<i>Armor plating obviously fused together out of various pieces of miscellaneous garbage. Still, it's better than nothing...maybe.</i>"],
-              "is_geministation": true,
-              "is_earth": false,
-              "is_mars": false,
-              "is_jupiter": false,
-              "is_mercury": false,
-              "is_eris": false,
-              "is_dangerous": false,
-              "is_rare": false,
-              "potential": [],
-              "children": []
-            }
-          ]
+          "children": [  {
+            "key": "armor_1_white",
+            "name": "Hammered Garbage I",
+            "area":"armor",
+            "base_factor": 1.0,
+            "item_level": 115.0,
+            "category": "Armor",
+            "cost": "$250",
+            "feature_unlocks": [
+              "<b>ID</b>: 4",
+              "<b>Required Level</b>: 2",
+              "<b style='color:lime'>+15</b> Armor",
+              "<b>Location: £gemini£</b> "
+            ],
+            "reputation":["<b>None</b>"],
+            "description": ["<i>Armor plating obviously fused together out of various pieces of miscellaneous garbage. Still, it's better than nothing...maybe.</i>"],
+            "is_geministation": true,
+            "is_earth": false,
+            "is_mars": false,
+            "is_jupiter": false,
+            "is_mercury": false,
+            "is_eris": false,
+            "is_dangerous": false,
+            "is_rare": false,
+            "potential": [],
+            "children": []
+          }]
+        },
+        {
+          "key": "armor_1_white",
+          "name": "Hammered Garbage II",
+          "area":"armor",
+          "base_factor": 1.0,
+          "item_level": 115.0,
+          "category": "Armor",
+          "cost": "$250",
+          "feature_unlocks": [
+            "<b>ID</b>: 4",
+            "<b>Required Level</b>: 2",
+            "<b style='color:lime'>+15</b> Armor",
+            "<b>Location: £gemini£</b> "
+          ],
+          "reputation":["<b>None</b>"],
+          "description": ["<i>Armor plating obviously fused together out of various pieces of miscellaneous garbage. Still, it's better than nothing...maybe.</i>"],
+          "is_geministation": true,
+          "is_earth": false,
+          "is_mars": false,
+          "is_jupiter": false,
+          "is_mercury": false,
+          "is_eris": false,
+          "is_dangerous": false,
+          "is_rare": false,
+          "potential": [],
+          "children": []
         }
 
       ]
