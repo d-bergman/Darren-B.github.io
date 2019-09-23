@@ -22,35 +22,24 @@ $(document).ready(function(){
             $("#tech-tree-physics").removeClass("float-NoDisplay");
             $("#tech-tree-society").addClass("float-NoDisplay");
             $("#tech-tree-engineering").addClass("float-NoDisplay");
-            $("#tech-tree-anomalies").addClass("float-NoDisplay");
         }
         if($(this).parent().hasClass("float-Society"))
         {
             $("#tech-tree-physics").addClass("float-NoDisplay");
             $("#tech-tree-society").removeClass("float-NoDisplay");
             $("#tech-tree-engineering").addClass("float-NoDisplay");
-            $("#tech-tree-anomalies").addClass("float-NoDisplay");
         }
         if($(this).parent().hasClass("float-Engineering"))
         {
             $("#tech-tree-physics").addClass("float-NoDisplay");
             $("#tech-tree-society").addClass("float-NoDisplay");
             $("#tech-tree-engineering").removeClass("float-NoDisplay");
-            $("#tech-tree-anomalies").addClass("float-NoDisplay");
         }
         if($(this).parent().hasClass("float-All"))
         {
             $("#tech-tree-physics").removeClass("float-NoDisplay");
             $("#tech-tree-society").removeClass("float-NoDisplay");
             $("#tech-tree-engineering").removeClass("float-NoDisplay");
-            $("#tech-tree-anomalies").addClass("float-NoDisplay");
-        }
-        if($(this).parent().hasClass("float-Anomalies"))
-        {
-            $("#tech-tree-physics").addClass("float-NoDisplay");
-            $("#tech-tree-society").addClass("float-NoDisplay");
-            $("#tech-tree-engineering").addClass("float-NoDisplay");
-            $("#tech-tree-anomalies").removeClass("float-NoDisplay");
         }
     });
 
