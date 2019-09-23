@@ -33,7 +33,10 @@
 					e.target == $(document)[0].childNodes[1] || 
 					e.target == $("#tech-tree").find("svg")[0] ||
 					e.target == $("#tech-tree").find("svg")[1] ||
-					e.target == $("#tech-tree").find("svg")[2]
+					e.target == $("#tech-tree").find("svg")[2] ||
+					e.target == $("#tech-tree").find("svg")[3] ||
+					e.target == $("#tech-tree").find("svg")[4] ||
+					e.target == $("#tech-tree").find("svg")[5]
 				  )
 				{
 					console.log("1",e.target);
