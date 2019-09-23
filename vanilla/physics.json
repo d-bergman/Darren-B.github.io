@@ -27,7 +27,7 @@
       "children": [
         {
           "key": "tech_lasers_1",
-          "name": "Red Lasers",
+          "name": "Red Lasers III",
           "description": "Laser weapons fire focused beams of light at targets, causing damage through the generation of intense heat.",
           "area": "physics",
           "base_factor": 1.0,
@@ -81,20 +81,16 @@
                 "(×<b style='color:lime'>1.25</b>) Research Leader (Physics): <br/>    •   Is Particles Expert"
               ],
               "potential": [],
-              "children": [],
-             "is_event": false,
-            "source": "vanilla"
+              "children": []
+             
         }
-      ],
-      "is_event": false,
-      "source": "vanilla"
+      ]
+      
      }
-    ],
-  "is_event": false,
-  "source": "vanilla"
+    ]
+  
     }
-  ],
-  "is_event": false,
-  "source": "vanilla"
+  ]
+  
 }
   
