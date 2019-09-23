@@ -40,18 +40,10 @@
 					clicked = true;
 					clickY = e.pageY;
 					clickX = e.pageX;
-					console.log(" $(document)[0].childNodes[1] ", $(document)[0].childNodes[1]);
-					console.log("tech tree svg 0  ", $("#tech-tree").find("svg")[0]);
-					console.log("tech tree svg 1  ", $("#tech-tree").find("svg")[1]);
-					console.log("tech tree svg 2  ", $("#tech-tree").find("svg")[2]);
 				}
 				else
 				{
 					console.log("2",e.target);
-					console.log(" $(document)[0].childNodes[1] ", $(document)[0].childNodes[1]);
-					console.log("tech tree svg 0  ", $("#tech-tree").find("svg")[0]);
-					console.log("tech tree svg 1  ", $("#tech-tree").find("svg")[1]);
-					console.log("tech tree svg 2  ", $("#tech-tree").find("svg")[2]);
 					clicked = false;
 				}
 			},

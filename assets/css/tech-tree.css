@@ -228,6 +228,8 @@ ui-tooltip ul li {
 pre {
     font-family: 'Arimo', Verdana;
 }
+.tooltip-content {
+}
 
 .tooltip-header {
     width: 100%;
