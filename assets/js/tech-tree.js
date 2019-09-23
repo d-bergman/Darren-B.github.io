@@ -20,6 +20,7 @@ var config = {
     callback: {
         onTreeLoaded: function() {
             init_tooltips();
+
             const observer = lozad();
             observer.observe();
 		}
@@ -38,7 +39,6 @@ function init_tooltips() {
         maxWidth: 512,
         functionInit: function(instance, helper){
             var content = $(helper.origin).find('.extra-data');
-            console.log("content: ", content);
             $(content).find('img').each(function(img, el) {
                 $(el).attr('src',$(el).attr('data-src'));
             });
@@ -47,7 +47,6 @@ function init_tooltips() {
         functionReady: function(instance, helper) {
             $(helper.tooltip).find('.tooltip-content').each(function(div){
                 var content = $(this).html();
-                console.log("content2: ", content);
                 content = content.replace(new RegExp(/£(\w+)£/,'g'), '<img class="resource" src="../assets/icons/$1.png" />');
                 $(this).html(content);
             });
@@ -58,29 +57,16 @@ function init_tooltips() {
 function setup(tech) {
     var techClass = (tech.is_dangerous ? ' dangerous' : '')
         + (!tech.is_dangerous && tech.is_rare ? ' rare' : '');
-    /*
-    var techClass = '';
-    if(tech.is_white){
-        techClass = ' white';
-    }else if(tech.is_green){
-        techClass = ' green';
-    }else if(tech.is_blue){
-        techClass = ' blue';
-    }else if(tech.is_purple){
-        techClass = ' purple';
-    }else if(tech.is_orange){
-        techClass = ' orange';
-    }*/
+
     var tmpl = $.templates("#node-template");
     var html = tmpl.render(tech);
 
     tech.HTMLid = tech.key;
     tech.HTMLclass = tech.area + techClass;
     tech.innerHTML = html;
-    //console.log("techclass 2" , tech.HTMLclass);
+
     $(tech.children).each(function(i, node){
         setup(node);
-        //init_tooltips();
     });
 };
 
@@ -97,28 +83,27 @@ function _load(jsonData) {
 }
 
 function load_tree() {
-    $.getJSON('armor.json', function(jsonData) {
+    $.getJSON('physics.json', function(jsonData) {
         setup(jsonData);
         _load(jsonData);
     });
-    $.getJSON('shields.json', function(jsonData) {
+    $.getJSON('society.json', function(jsonData) {
         setup(jsonData);
         _load(jsonData);
     });
-    $.getJSON('weapons.json', function(jsonData) {
+    $.getJSON('engineering.json', function(jsonData) {
         setup(jsonData);
         _load(jsonData);
     });
-    $.getJSON('sensors.json', function(jsonData) {
-        setup(jsonData);
-        _load(jsonData);
-    });
-    $.getJSON('engines.json', function(jsonData) {
-        setup(jsonData);
-        _load(jsonData);
-    });
-    $.getJSON('utility.json', function(jsonData) {
-        setup(jsonData);
-        _load(jsonData);
+    $.getJSON('anomalies.json', function(jsonData) {
+        // Event techs don't really need a Tree
+        $(jsonData).each(function(index, item) {
+            setup(item);
+            var e = $("<div>").html(item.innerHTML);
+            e.attr("class",item.HTMLclass)
+            e.addClass("node").addClass("tech").addClass("anomaly");
+            $('#tech-tree-anomalies').append(e);
+            init_tooltips();
+        });
     });
 }

@@ -17,70 +17,41 @@ $(document).ready(function(){
         $(this).parent().removeClass("float-Lowlight");
         $(this).parent().addClass("float-Highlight");
         
-        if($(this).parent().hasClass("float-Armor"))
+        if($(this).parent().hasClass("float-Physics"))
         {
-            $("#tech-tree-armor").removeClass("float-NoDisplay");
-            $("#tech-tree-shields").addClass("float-NoDisplay");
-            $("#tech-tree-weapons").addClass("float-NoDisplay");
-            $("#tech-tree-sensors").addClass("float-NoDisplay");
-            $("#tech-tree-engines").addClass("float-NoDisplay");
-            $("#tech-tree-utility").addClass("float-NoDisplay");
+            $("#tech-tree-physics").removeClass("float-NoDisplay");
+            $("#tech-tree-society").addClass("float-NoDisplay");
+            $("#tech-tree-engineering").addClass("float-NoDisplay");
+            $("#tech-tree-anomalies").addClass("float-NoDisplay");
         }
-        if($(this).parent().hasClass("float-Shields"))
+        if($(this).parent().hasClass("float-Society"))
         {
-            $("#tech-tree-armor").addClass("float-NoDisplay");
-            $("#tech-tree-shields").removeClass("float-NoDisplay");
-            $("#tech-tree-weapons").addClass("float-NoDisplay");
-            $("#tech-tree-sensors").addClass("float-NoDisplay");
-            $("#tech-tree-engines").addClass("float-NoDisplay");
-            $("#tech-tree-utility").addClass("float-NoDisplay");
+            $("#tech-tree-physics").addClass("float-NoDisplay");
+            $("#tech-tree-society").removeClass("float-NoDisplay");
+            $("#tech-tree-engineering").addClass("float-NoDisplay");
+            $("#tech-tree-anomalies").addClass("float-NoDisplay");
         }
-        if($(this).parent().hasClass("float-Weapons"))
+        if($(this).parent().hasClass("float-Engineering"))
         {
-            $("#tech-tree-armor").addClass("float-NoDisplay");
-            $("#tech-tree-shields").addClass("float-NoDisplay");
-            $("#tech-tree-weapons").removeClass("float-NoDisplay");
-            $("#tech-tree-sensors").addClass("float-NoDisplay");
-            $("#tech-tree-engines").addClass("float-NoDisplay");
-            $("#tech-tree-utility").addClass("float-NoDisplay");
-        }
-        if($(this).parent().hasClass("float-Sensors"))
-        {
-            $("#tech-tree-armor").addClass("float-NoDisplay");
-            $("#tech-tree-shields").addClass("float-NoDisplay");
-            $("#tech-tree-weapons").addClass("float-NoDisplay");
-            $("#tech-tree-sensors").removeClass("float-NoDisplay");
-            $("#tech-tree-engines").addClass("float-NoDisplay");
-            $("#tech-tree-utility").addClass("float-NoDisplay");
-        }
-        if($(this).parent().hasClass("float-Engines"))
-        {
-            $("#tech-tree-armor").addClass("float-NoDisplay");
-            $("#tech-tree-shields").addClass("float-NoDisplay");
-            $("#tech-tree-weapons").addClass("float-NoDisplay");
-            $("#tech-tree-sensors").addClass("float-NoDisplay");
-            $("#tech-tree-engines").removeClass("float-NoDisplay");
-            $("#tech-tree-utility").addClass("float-NoDisplay");
-        }
-        if($(this).parent().hasClass("float-Utility"))
-        {
-            $("#tech-tree-armor").addClass("float-NoDisplay");
-            $("#tech-tree-shields").addClass("float-NoDisplay");
-            $("#tech-tree-weapons").addClass("float-NoDisplay");
-            $("#tech-tree-sensors").addClass("float-NoDisplay");
-            $("#tech-tree-engines").addClass("float-NoDisplay");
-            $("#tech-tree-utility").removeClass("float-NoDisplay");
+            $("#tech-tree-physics").addClass("float-NoDisplay");
+            $("#tech-tree-society").addClass("float-NoDisplay");
+            $("#tech-tree-engineering").removeClass("float-NoDisplay");
+            $("#tech-tree-anomalies").addClass("float-NoDisplay");
         }
         if($(this).parent().hasClass("float-All"))
         {
-            $("#tech-tree-armor").removeClass("float-NoDisplay");
-            $("#tech-tree-shields").removeClass("float-NoDisplay");
-            $("#tech-tree-weapons").removeClass("float-NoDisplay");
-            $("#tech-tree-sensors").removeClass("float-NoDisplay");
-            $("#tech-tree-engines").removeClass("float-NoDisplay");
-            $("#tech-tree-utility").removeClass("float-NoDisplay");
+            $("#tech-tree-physics").removeClass("float-NoDisplay");
+            $("#tech-tree-society").removeClass("float-NoDisplay");
+            $("#tech-tree-engineering").removeClass("float-NoDisplay");
+            $("#tech-tree-anomalies").addClass("float-NoDisplay");
         }
-        
+        if($(this).parent().hasClass("float-Anomalies"))
+        {
+            $("#tech-tree-physics").addClass("float-NoDisplay");
+            $("#tech-tree-society").addClass("float-NoDisplay");
+            $("#tech-tree-engineering").addClass("float-NoDisplay");
+            $("#tech-tree-anomalies").removeClass("float-NoDisplay");
+        }
     });
 
     // Make some button go to the top of the page

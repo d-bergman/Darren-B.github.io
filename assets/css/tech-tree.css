@@ -6,48 +6,10 @@ caption,th { text-align:left; }
 h1,h2,h3,h4,h5,h6 { font-size:100%; font-weight:normal; }
 q:before,q:after { content:''; }
 abbr,acronym { border:0; }
-.fullscreen-bg {
-    position: fixed;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    overflow: hidden;
-    z-index: -100;
-  }
-  
-  .fullscreen-bg__video {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-  }
-  
-  @media (min-aspect-ratio: 16/9) {
-    .fullscreen-bg__video {
-      height: 300%;
-      top: -100%;
-    }
-  }
-  
-  @media (max-aspect-ratio: 16/9) {
-    .fullscreen-bg__video {
-      width: 300%;
-      left: -100%;
-    }
-  }
-  
-  @media (max-width: 767px) {
-    .fullscreen-bg {
-      background: url('login_bg2.jpg') center center / cover no-repeat;
-    }
-  
-    .fullscreen-bg__video {
-      display: none;
-    }
-  }
 
+body {
+    background: #707070;
+}
 /* optional Container STYLES */
 .chart { border: none; overflow: scroll}
 .Treant > .node {
@@ -66,6 +28,7 @@ abbr,acronym { border:0; }
     color: white;
     border-radius: unset;
 }
+
 
 .extra-data {
     display:none;
@@ -221,6 +184,7 @@ ui-tooltip ul li {
     /* margin-left: 0; */
 }
 
+.ui-tooltip > div > span.weight-modifiers,
 .ui-tooltip > div > span.feature-unlocks {
     white-space: pre;
 }
@@ -228,7 +192,9 @@ ui-tooltip ul li {
 pre {
     font-family: 'Arimo', Verdana;
 }
+
 .tooltip-content {
+
 }
 
 .tooltip-header {
@@ -237,34 +203,33 @@ pre {
     font-weight: bold;
 }
 
-.tech.shields {
+.tech.society {
     border-color: #5ACA9C;
     background-image: url("tech_bg_society.png");
 }
 
-.tech.armor { 
+span.society-research::before {
+    background: url("../img/society_research.png") center center no-repeat;
+    content:  url("../img/blank11px.png");
+    width: 11px;
+    height: 11px;
+}
+
+.tech.engineering { 
     border-color: #E29C43;
     background-image: url('tech_bg_engineering.png');
 }
 
-.tech.weapons {
-    border-color: #fff;
-    background-image: url("tech_bg_white.png");
+span.engineering-research::before {
+    background: url("../img/engineering_research.png") center center no-repeat;
+    content:  url("../img/blank11px.png");
+    width: 11px;
+    height: 11px;
 }
 
-.tech.sensors {
-    border-color: rgb(31, 17, 240);
-    background-image: url("tech_bg_blue.png");
-}
-
-.tech.engines {
-    border-color: rgb(241, 238, 2);
-    background-image: url("tech_bg_gold.png");
-}
-
-.tech.utility {
-    border-color: rgb(207, 11, 11);
-    background-image: url("tech_bg_red.png");
+.tech.physics {
+    border-color: #4396E2;
+    background-image: url("tech_bg_physics.png");
 }
 
 .tech.dangerous {
@@ -272,27 +237,14 @@ pre {
 }
 
 .tech.rare {
-    background-image: url("tech_bg_dangerous.png") !important;
+    background-image: url("tech_bg_rare.png") !important;
 }
 
-.tech.white{
-    background-image: url("tech_bg_white.png");
-}
-
-.tech.green{
-    background-image: url("tech_bg_green.png");
-}
-
-.tech.blue{
-    background-image: url("tech_bg_blue.png");
-}
-
-.tech.purple{
-    background-image: url("tech_bg_purple.png");
-}   
-
-.tech.orange{
-    background-image: url("tech_bg_orange.png");
+span.physics-research::before {
+    background: url("../img/physics_research.png") center center no-repeat;
+    content:  url("../img/blank11px.png");
+    width: 11px;
+    height: 11px;
 }
 
 .tech img {
@@ -358,7 +310,7 @@ div.fixed div {
     position: fixed;
 	top: 0px;
     left: 0px;
-    background: #0C1A1D;
+    background: #333;
     list-style-type: none;
     padding: 10px;
     padding-bottom: 0px;
