@@ -20,7 +20,6 @@ var config = {
     callback: {
         onTreeLoaded: function() {
             init_tooltips();
-
             const observer = lozad();
             observer.observe();
 		}
