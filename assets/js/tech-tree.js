@@ -81,6 +81,7 @@ function setup(tech) {
     console.log("techclass 2" , tech.HTMLclass);
     $(tech.children).each(function(i, node){
         setup(node);
+        init_tooltips();
     });
 };
 
