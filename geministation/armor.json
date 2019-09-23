@@ -90,7 +90,7 @@
           "name": "Hammered Garbage II",
           "area":"armor",
           "base_factor": 1.0,
-          "item_level": 115.0,
+          "item_level": 5.0,
           "category": "Armor",
           "cost": "$250",
           "feature_unlocks": [

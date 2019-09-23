@@ -102,25 +102,31 @@ function load_tree() {
     $.getJSON('armor.json', function(jsonData) {
         setup(jsonData);
         _load(jsonData);
+        init_tooltips();
     });
     $.getJSON('shields.json', function(jsonData) {
         setup(jsonData);
         _load(jsonData);
+        init_tooltips();
     });
     $.getJSON('weapons.json', function(jsonData) {
         setup(jsonData);
         _load(jsonData);
+        init_tooltips();
     });
     $.getJSON('sensors.json', function(jsonData) {
         setup(jsonData);
         _load(jsonData);
+        init_tooltips();
     });
     $.getJSON('engines.json', function(jsonData) {
         setup(jsonData);
         _load(jsonData);
+        init_tooltips();
     });
     $.getJSON('utility.json', function(jsonData) {
         setup(jsonData);
         _load(jsonData);
+        init_tooltips();
     });
 }
