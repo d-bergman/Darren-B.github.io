@@ -51,7 +51,6 @@ function init_tooltips() {
                 console.log("content2: ", content);
                 content = content.replace(new RegExp(/£(\w+)£/,'g'), '<img class="resource" src="../assets/icons/$1.png" />');
                 $(this).html(content);
-                instance.content(content);
             });
         }
     });
@@ -79,7 +78,7 @@ function setup(tech) {
     tech.HTMLid = tech.key;
     tech.HTMLclass = tech.area + techClass;
     tech.innerHTML = html;
-    console.log("techclass 2" , tech.HTMLclass);
+    //console.log("techclass 2" , tech.HTMLclass);
     $(tech.children).each(function(i, node){
         setup(node);
         //init_tooltips();
