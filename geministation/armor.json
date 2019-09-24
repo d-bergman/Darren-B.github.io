@@ -72,7 +72,7 @@
             {
             "key": "armor_1a",
             "image":"armor_1_white",
-            "name": "Hammered Garbage II",
+            "name": "Hammered Garbage I",
             "area":"armor",
             "base_factor": 1.0,
             "item_level": 115.0,
@@ -105,7 +105,7 @@
         {
           "key": "armor_1b",
           "image":"armor_1_white",
-          "name": "Hammered Garbage III",
+          "name": "Hammered Garbage II",
           "area":"armor",
           "base_factor": 1.0,
           "item_level": 5.0,
