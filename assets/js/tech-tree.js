@@ -73,8 +73,6 @@ function setup(tech) {
         techClass = ' purple';
     }else if(tech.is_orange){
         techClass = ' orange';
-    }else{
-        techClass='';
     }
     var tmpl = $.templates("#node-template");
     var html = tmpl.render(tech);
