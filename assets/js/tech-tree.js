@@ -11,7 +11,10 @@ var config = {
     subTeeSeparation:  20,
     scrollbar: 'resize',
     connectors: {
-        type: 'step'
+        type: 'step',
+        style:{
+            stroke:'white'
+        }
     },
     node: {
         HTMLclass: 'tech',
