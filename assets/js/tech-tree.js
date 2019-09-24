@@ -62,6 +62,7 @@ function setup(tech) {
    // var techClass = (tech.is_dangerous ? ' dangerous' : '')
    //     + (!tech.is_dangerous && tech.is_rare ? ' rare' : '');
    
+    var techClass ='';
     if(tech.is_white){
         techClass = ' white';
     }else if(tech.is_green){
