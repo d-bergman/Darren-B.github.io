@@ -92,9 +92,9 @@
       "description": "These lasers have a shorter wavelength than UV-based laser weaponry, but are even more destructive.",
       "area": "physics",
       "base_factor": 1.0,
-      "base_weight": 65.0,
+      "base_weight": 95.0,
       "category": "Particles",
-      "cost": 4000,
+      "cost": 750,
       "feature_unlocks": [
         "<b>Component</b>: Large X-Ray Laser",
         "<b>Component</b>: Medium X-Ray Laser",
