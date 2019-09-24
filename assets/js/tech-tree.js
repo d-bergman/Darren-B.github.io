@@ -59,21 +59,22 @@ function init_tooltips() {
 }
 
 function setup(tech) {
-   var techClass = (tech.is_white ? ' white' : '')
-       + (!tech.is_white && tech.is_green ? ' green' : '');
-    /* else if(tech.is_blue){
-        techClass = ' blue';
-    }else if(tech.is_purple){
-        techClass = ' purple';
-    }else if(tech.is_orange){
-        techClass = ' orange';*/
+  // var techClass = (tech.is_white ? ' white' : '')
+    //   + (!tech.is_white && tech.is_green ? ' green' : '');
+    /**/
    
-    /*var techClass ='';
+    var techClass ='';
     if(tech.is_white){
         techClass = ' white';
     }else if(tech.is_green){
         techClass = ' green';
-    }*/
+    }else if(tech.is_blue){
+        techClass = ' blue';
+    }else if(tech.is_purple){
+        techClass = ' purple';
+    }else if(tech.is_orange){
+        techClass = ' orange';
+    }
     var tmpl = $.templates("#node-template");
     var html = tmpl.render(tech);
 

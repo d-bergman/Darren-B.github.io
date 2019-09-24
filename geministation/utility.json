@@ -81,7 +81,7 @@
               "is_mercury": false,
               "is_eris": false,
               "is_white": false,
-              "is_green": false,
+              "is_green": true,
               "potential": [],
               "children": []
             }
@@ -109,7 +109,7 @@
           "is_jupiter": false,
           "is_mercury": false,
           "is_eris": false,
-          "is_white": false,
+          "is_white": true,
           "is_green": false,
           "potential": [],
           "children": []
