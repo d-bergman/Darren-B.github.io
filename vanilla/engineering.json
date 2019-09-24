@@ -27,7 +27,7 @@
       "children": [
         {
           "key": "tech_basic_industry",
-          "name": "Industrial Base",
+          "name": "Industrial Base I",
           "description": "The basic industrial infrastructure that is required to become a spacefaring civilization.",
           "area": "engineering",
           "base_factor": 1.0,
