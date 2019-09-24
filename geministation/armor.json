@@ -59,7 +59,7 @@
           "potential": [],
           "children": [  
             {
-            "key": "armor_1_white",
+            "key": "armor_1_whiteA",
             "name": "Hammered Garbage I",
             "area":"armor",
             "base_factor": 1.0,
@@ -88,8 +88,8 @@
         ]
         },
         {
-          "key": "armor_1_white",
-          "name": "Hammered Garbage II",
+          "key": "armor_1_whiteB",
+          "name": "Hammered Garbage III",
           "area":"armor",
           "base_factor": 1.0,
           "item_level": 5.0,
