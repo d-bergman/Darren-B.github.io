@@ -10,8 +10,8 @@
   "is_jupiter": false,
   "is_mercury": false,
   "is_eris": false,
-  "is_dangerous": false,
-  "is_rare": false,
+  "is_white": false,
+  "is_green": false,
   "potential": [],
   "children": [
     {
@@ -28,8 +28,8 @@
       "is_jupiter": false,
       "is_mercury": false,
       "is_eris": false,
-      "is_dangerous": false,
-      "is_rare": false,
+      "is_white": false,
+      "is_green": false,
       "potential": [],
       "children": [
         {
@@ -54,8 +54,8 @@
           "is_jupiter": false,
           "is_mercury": false,
           "is_eris": false,
-          "is_dangerous": false,
-          "is_rare": false,
+          "is_white": true,
+          "is_green": false,
           "potential": [],
           "children": [
             {
@@ -80,8 +80,8 @@
               "is_jupiter": false,
               "is_mercury": false,
               "is_eris": false,
-              "is_dangerous": false,
-              "is_rare": false,
+              "is_white": false,
+              "is_green": false,
               "potential": [],
               "children": []
             }
@@ -109,8 +109,8 @@
           "is_jupiter": false,
           "is_mercury": false,
           "is_eris": false,
-          "is_dangerous": false,
-          "is_rare": false,
+          "is_white": false,
+          "is_green": false,
           "potential": [],
           "children": []
         }
