@@ -55,7 +55,7 @@
           "is_white":true,
           "is_mercury": false,
           "is_eris": false,
-          "is_dangerous": false,
+          "is_dangerous": true,
           "is_rare": false,
           "potential": [],
           "children": [  
