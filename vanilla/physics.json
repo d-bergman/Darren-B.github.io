@@ -55,7 +55,7 @@
               "area": "physics",
               "base_factor": 1.0,
               "base_weight": 95.0,
-              "category": "Particles",
+              "category": "Particle",
               "cost": 750,
               "feature_unlocks": [
                 "<b>Component</b>: Large Blue Laser",
@@ -87,7 +87,7 @@
       
      },
      {
-      "key": "tech_lasers_4",
+      "key": "tech_lasers_2",
       "name": "Blue Lasers",
       "description": "These lasers have a shorter wavelength than UV-based laser weaponry, but are even more destructive.",
       "area": "physics",
