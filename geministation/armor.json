@@ -34,7 +34,7 @@
       "children": [
         {
           "key": "armor_1_white",
-          "name": "Hammered Garbage I",
+          "name": "Hammered Garbage",
           "area":"armor",
           "base_factor": 1.0,
           "item_level": 5.0,
