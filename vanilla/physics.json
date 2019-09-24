@@ -27,7 +27,7 @@
       "children": [
         {
           "key": "tech_lasers_1",
-          "name": "Red Lasers V",
+          "name": "Red Lasers",
           "description": "Laser weapons fire focused beams of light at targets, causing damage through the generation of intense heat.",
           "area": "physics",
           "base_factor": 1.0,
