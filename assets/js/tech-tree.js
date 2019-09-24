@@ -59,10 +59,9 @@ function init_tooltips() {
 }
 
 function setup(tech) {
-    var techClass = (tech.is_dangerous ? ' dangerous' : '')
-        + (!tech.is_dangerous && tech.is_rare ? ' rare' : '');
-    /*
-    var techClass = '';
+   // var techClass = (tech.is_dangerous ? ' dangerous' : '')
+   //     + (!tech.is_dangerous && tech.is_rare ? ' rare' : '');
+   
     if(tech.is_white){
         techClass = ' white';
     }else if(tech.is_green){
@@ -73,7 +72,7 @@ function setup(tech) {
         techClass = ' purple';
     }else if(tech.is_orange){
         techClass = ' orange';
-    }*/
+    }
     var tmpl = $.templates("#node-template");
     var html = tmpl.render(tech);
 
