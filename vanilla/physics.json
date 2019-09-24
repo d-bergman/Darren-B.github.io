@@ -88,7 +88,7 @@
      },
      {
       "key": "tech_lasers_4",
-      "name": "X-Ray Lasers",
+      "name": "Blue Lasers",
       "description": "These lasers have a shorter wavelength than UV-based laser weaponry, but are even more destructive.",
       "area": "physics",
       "base_factor": 1.0,
