@@ -15,6 +15,7 @@
   "potential": [],
   "children": [
     {
+      "image":"",
       "name": "utility",
       "area": "utility",
       "base_factor": 1.0,
@@ -36,7 +37,8 @@
       "potential": [],
       "children": [
         {
-          "key": "computer_1_white",
+          "key": "computer_1",
+          "image":"computer_1_white",
           "name": "Targeting Computer",
           "area": "utility",
           "base_factor": 1.0,
@@ -65,7 +67,8 @@
           "potential": [],
           "children": [
             {
-              "key": "computer_1_whiteA",
+              "key": "computer_2",
+              "image":"computer_1_white",
               "name": "Targeting Computer II",
               "area": "utility",
               "base_factor": 1.0,
@@ -97,7 +100,8 @@
           ]
         },
         {
-          "key": "computer_1_whiteB",
+          "key": "computer_3",
+          "image":"computer_1_white",
           "name": "Targeting Computer I",
           "area": "utility",
           "base_factor": 1.0,

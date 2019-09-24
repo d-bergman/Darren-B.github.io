@@ -18,6 +18,7 @@
   "potential": [],
   "children": [
     {
+      "image":"",
       "name": "weapons",
       "area": "weapons",
       "base_factor": 1.0,
@@ -39,7 +40,8 @@
       "potential": [],
       "children": [
         {
-          "key": "blaster_1_blue",
+          "key": "blaster_1",
+          "image": "blaster_1_blue",
           "name": "Overheated Blaster Cannon",
           "area": "weapons",
           "base_factor": 1.0,

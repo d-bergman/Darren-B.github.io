@@ -18,6 +18,7 @@
   "potential": [],
   "children": [
     {
+      "image":"",
       "name": "engines",
       "area": "engines",
       "base_factor": 1.0,
@@ -39,7 +40,8 @@
       "potential": [],
       "children": [
         {
-          "key": "engine_1_white",
+          "key": "engine_1",
+          "image":"engine_1_white",
           "name": "Tuned Impulse Drives",
           "area": "engines",
           "base_factor": 1.0,

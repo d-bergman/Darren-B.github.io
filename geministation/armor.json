@@ -18,6 +18,7 @@
   "potential": [],
   "children": [
     {
+      "image":"",
       "name":"armor",
       "area":"armor",
       "base_factor": 1.0,
@@ -39,8 +40,9 @@
       "potential": [],
       "children": [
         {
-          "key": "armor_1_white",
-          "name": "Hammered Garbage I",
+          "key": "armor_1",
+          "image":"armor_1_white",
+          "name": "Hammered Garbage",
           "area":"armor",
           "base_factor": 1.0,
           "item_level": 5.0,
@@ -68,7 +70,8 @@
           "potential": [],
           "children": [  
             {
-            "key": "armor_1_whiteA",
+            "key": "armor_1a",
+            "image":"armor_1_white",
             "name": "Hammered Garbage II",
             "area":"armor",
             "base_factor": 1.0,
@@ -100,7 +103,8 @@
         ]
         },
         {
-          "key": "armor_1_whiteB",
+          "key": "armor_1b",
+          "image":"armor_1_white",
           "name": "Hammered Garbage III",
           "area":"armor",
           "base_factor": 1.0,

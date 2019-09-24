@@ -18,6 +18,7 @@
   "potential": [],
   "children": [
     {
+      "image":"",
       "name": "shields",
       "area": "shields",
       "base_factor": 1.0,
@@ -39,7 +40,8 @@
       "potential": [],
       "children": [
         {
-          "key": "shield_1_white",
+          "key": "shield1",
+          "image":"shield_1_white",
           "name": "Salvaged Shield Generator",
           "area": "shields",
           "base_factor": 1.0,

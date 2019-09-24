@@ -18,6 +18,7 @@
   "potential": [],
   "children": [
     {
+      "image":"",
       "name": "sensors",
       "area": "sensors",
       "base_factor": 1.0,
@@ -39,7 +40,8 @@
       "potential": [],
       "children": [
         {
-          "key": "sensor_1_white",
+          "key": "sensor_1",
+          "image":"sensor_1_white",
           "name": "Cracked Sensor Emitter",
           "area": "sensors",
           "base_factor": 1.0,
