@@ -30,6 +30,9 @@
       "is_eris": false,
       "is_white": false,
       "is_green": false,
+      "is_blue":false,
+      "is_purple":false,
+      "is_orange":false,
       "potential": [],
       "children": [
         {
@@ -56,6 +59,9 @@
           "is_eris": false,
           "is_white": true,
           "is_green": false,
+          "is_blue":false,
+          "is_purple":false,
+          "is_orange":false,
           "potential": [],
           "children": [
             {
@@ -82,6 +88,9 @@
               "is_eris": false,
               "is_white": false,
               "is_green": true,
+              "is_blue":false,
+              "is_purple":false,
+              "is_orange":false,
               "potential": [],
               "children": []
             }
@@ -111,6 +120,9 @@
           "is_eris": false,
           "is_white": true,
           "is_green": false,
+          "is_blue":false,
+          "is_purple":false,
+          "is_orange":false,
           "potential": [],
           "children": []
         }

@@ -228,45 +228,11 @@ ui-tooltip ul li {
 pre {
     font-family: 'Arimo', Verdana;
 }
-.tooltip-content {
-}
 
 .tooltip-header {
     width: 100%;
     color: #f59f17;
     font-weight: bold;
-}
-
-.tech.shields {
-   
-}
-
-.tech.armor { 
-    
-}
-
-.tech.weapons {
-    
-}
-
-.tech.sensors {
-    
-}
-
-.tech.engines {
-    
-}
-
-.tech.utility {
-    
-}
-
-.tech.dangerous {
-    background-image: url("tech_bg_dangerous.png") !important;
-}
-
-.tech.rare {
-    background-image: url("tech_bg_dangerous.png") !important;
 }
 
 .tech.white{
