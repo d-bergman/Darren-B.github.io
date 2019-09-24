@@ -81,12 +81,46 @@
                 "(×<b style='color:lime'>1.25</b>) Research Leader (Physics): <br/>    •   Is Particles Expert"
               ],
               "potential": [],
-              "children": []
-             
+              "children": []        
         }
-      ]
+      ]     
       
-     }
+     },
+      {
+        "key": "tech_lasers_2",
+        "name": "Blue Lasers",
+        "description": "More powerful than red lasers, these blue variants emit electromagnetic radiation at a wavelength that appears blue or violet to most organics.",
+        "area": "physics",
+        "base_factor": 1.0,
+        "base_weight": 95.0,
+        "category": "Particles",
+        "cost": 750,
+        "feature_unlocks": [
+          "<b>Component</b>: Large Blue Laser",
+          "<b>Component</b>: Medium Blue Laser",
+          "<b>Component</b>: Small Blue Laser"
+        ],
+        "is_dangerous": false,
+        "is_rare": false,
+        "is_start_tech": false,
+        "prerequisites": [
+          "tech_lasers_1"
+        ],
+        "tier": 1,
+        "prerequisites_names": [
+          {
+            "name": "Red Lasers",
+            "key": "tech_lasers_1"
+          }
+        ],
+        "weight_modifiers": [
+          "(×<b style='color:lime'>1.25</b>) Has Militarist Ethic",
+          "(×<b style='color:lime'>1.5</b>) Has Fanatic Militarist Ethic",
+          "(×<b style='color:lime'>1.25</b>) Research Leader (Physics): <br/>    •   Is Particles Expert"
+        ],
+        "potential": [],
+        "children": []
+      }
     ]
   
     }
