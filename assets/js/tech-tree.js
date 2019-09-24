@@ -95,4 +95,15 @@ function load_tree() {
         setup(jsonData);
         _load(jsonData);
     });
+    $.getJSON('anomalies.json', function(jsonData) {
+        // Event techs don't really need a Tree
+        $(jsonData).each(function(index, item) {
+            setup(item);
+            var e = $("<div>").html(item.innerHTML);
+            e.attr("class",item.HTMLclass)
+            e.addClass("node").addClass("tech").addClass("anomaly");
+            $('#tech-tree-anomalies').append(e);
+            init_tooltips();
+        });
+    });
 }
