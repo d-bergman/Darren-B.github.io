@@ -32,7 +32,8 @@
 				if(
 					e.target == $(document)[0].childNodes[1] || 
 					e.target == $("#tech-tree").find("svg")[0] ||
-					e.target == $("#tech-tree").find("svg")[1] 
+					e.target == $("#tech-tree").find("svg")[1] ||
+					e.target == $("#tech-tree").find("svg")[2]
 				  )
 				{
 					clicked = true;
