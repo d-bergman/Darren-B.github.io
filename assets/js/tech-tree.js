@@ -79,7 +79,7 @@ function setup(tech) {
     tech.HTMLid = tech.key;
     tech.HTMLclass = tech.area + techClass;
     tech.innerHTML = html;
-    //console.log("techclass 2" , tech.HTMLclass);
+    console.log("techclass 2" , tech.HTMLclass);
     $(tech.children).each(function(i, node){
         setup(node);
         //init_tooltips();
