@@ -106,7 +106,7 @@
       "prerequisites": [
         "tech_lasers_3"
       ],
-      "tier": 3,
+      "tier": 1,
       "prerequisites_names": [
         {
           "name": "UV Lasers",
