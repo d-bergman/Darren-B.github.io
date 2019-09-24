@@ -59,7 +59,7 @@
           "potential": [],
           "children": [
             {
-              "key": "computer_1_white",
+              "key": "computer_1_whiteA",
               "name": "Targeting Computer II",
               "area": "utility",
               "base_factor": 1.0,
@@ -88,7 +88,7 @@
           ]
         },
         {
-          "key": "computer_1_white",
+          "key": "computer_1_whiteB",
           "name": "Targeting Computer I",
           "area": "utility",
           "base_factor": 1.0,
