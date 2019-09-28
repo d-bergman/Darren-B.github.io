@@ -1,7 +1,7 @@
 [
     {
         "mod_id": "51",
-        "mod_name": "Tuned Impulse Drives",
+        "mod_name": "Tuned Impulse Drive",
         "mod_effect": "+1% Engine Efficiency",
         "mod_desc": "Tuned for speed....a little speed.",
         "mod_type": "Engine",

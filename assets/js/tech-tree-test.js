@@ -64,6 +64,7 @@ function setup(tech) {
     /**/
    
     var techClass ='';
+    console.log(tech.mod_tier);
     if(tech.mod_tier == "100"){
         techClass = ' white';
     }else if(tech.mod_tier == "200"){
