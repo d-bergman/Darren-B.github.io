@@ -1,0 +1,902 @@
+[
+    {
+        "mod_id": "51",
+        "mod_name": "Tuned Impulse Drives",
+        "mod_effect": "+1% Engine Efficiency",
+        "mod_desc": "Tuned for speed....a little speed.",
+        "mod_type": "Engine",
+        "mod_tier": "100",
+        "mod_price": "500",
+        "mod_link": "https://www.geministation.com/images/mods/engine_1_white"
+    },
+    {
+        "mod_id": "1",
+        "mod_name": "Martian Atmospheric Booster",
+        "mod_effect": "1% Engine Efficiency",
+        "mod_desc": "Only slightly better than the stock engines installed on most ships, yet still decreases travel time.",
+        "mod_type": "Engine",
+        "mod_tier": "100",
+        "mod_price": "500",
+        "mod_link": "https://www.geministation.com/images/mods/engine_1_white"
+    },
+    {
+        "mod_id": "21",
+        "mod_name": "Maneuvering Thrusters II",
+        "mod_effect": "+1% Evasion",
+        "mod_desc": "Increases your evasion by 1%",
+        "mod_type": "Engine",
+        "mod_tier": "100",
+        "mod_price": "500",
+        "mod_link": "https://www.geministation.com/images/mods/engine_1_white"
+    },
+    {
+        "mod_id": "425",
+        "mod_name": "Inverted Drives",
+        "mod_effect": "-500% Engine Efficiency",
+        "mod_desc": "We don't know either.",
+        "mod_type": "Engine",
+        "mod_tier": "100",
+        "mod_price": "12",
+        "mod_link": "https://www.geministation.com/images/mods/blaster_1_white"
+    },
+    {
+        "mod_id": "455",
+        "mod_name": "Terran Drives",
+        "mod_effect": "+1% Engine Efficiency ",
+        "mod_desc": "Above average drives.",
+        "mod_type": "Engine",
+        "mod_tier": "100",
+        "mod_price": "250",
+        "mod_link": "https://www.geministation.com/images/mods/engine_1_white"
+    },
+    {
+        "mod_id": "458",
+        "mod_name": "Engine",
+        "mod_effect": "+1% Engine Efficiency",
+        "mod_desc": "Increases engine efficiency by 1%",
+        "mod_type": "Engine",
+        "mod_tier": "100",
+        "mod_price": "250",
+        "mod_link": "https://www.geministation.com/images/mods/engine_1_white"
+    },
+    {
+        "mod_id": "457",
+        "mod_name": "Basic Combat Thrusters",
+        "mod_effect": "+1% Evasion",
+        "mod_desc": "Increases evasion by 1%",
+        "mod_type": "Engine",
+        "mod_tier": "100",
+        "mod_price": "750",
+        "mod_link": "https://www.geministation.com/images/mods/engine_1_white"
+    },
+    {
+        "mod_id": "284",
+        "mod_name": "Faulty Combat Thrusters",
+        "mod_effect": "+1 Defense",
+        "mod_desc": "These engines marginally increase your reflexes in combat.",
+        "mod_type": "Engine",
+        "mod_tier": "100",
+        "mod_price": "1,000",
+        "mod_link": "https://www.geministation.com/images/mods/engine_1_white"
+    },
+    {
+        "mod_id": "303",
+        "mod_name": "Tuned Drives",
+        "mod_effect": "+2% Engine Efficiency",
+        "mod_desc": "Tuned for marginally increased engine efficiency.",
+        "mod_type": "Engine",
+        "mod_tier": "100",
+        "mod_price": "500",
+        "mod_link": "https://www.geministation.com/images/mods/engine_1_white"
+    },
+    {
+        "mod_id": "426",
+        "mod_name": "Inverted Drives",
+        "mod_effect": "-500% Engine Efficiency",
+        "mod_desc": "We don't know either.",
+        "mod_type": "Engine",
+        "mod_tier": "100",
+        "mod_price": "12",
+        "mod_link": "https://www.geministation.com/images/mods/blaster_1_white"
+    },
+    {
+        "mod_id": "197",
+        "mod_name": "Standard Evasion Drive",
+        "mod_effect": "+1% Evasion",
+        "mod_desc": "This mod makes it more difficult for pirates to target you...marginally.",
+        "mod_type": "Engine",
+        "mod_tier": "100",
+        "mod_price": "400",
+        "mod_link": "https://www.geministation.com/images/mods/engine_1_white"
+    },
+    {
+        "mod_id": "390",
+        "mod_name": "Heavily Damaged Drives",
+        "mod_effect": "-10% Engine Efficiency",
+        "mod_desc": "These engines are literally on fire and should not be used. ",
+        "mod_type": "Engine",
+        "mod_tier": "100",
+        "mod_price": "500",
+        "mod_link": "https://www.geministation.com/images/mods/engine_1_white"
+    },
+    {
+        "mod_id": "198",
+        "mod_name": "Standard Evasion Drive",
+        "mod_effect": "+2% Evasion",
+        "mod_desc": "This mod makes it more difficult for pirates to target you...marginally.",
+        "mod_type": "Engine",
+        "mod_tier": "100",
+        "mod_price": "500",
+        "mod_link": "https://www.geministation.com/images/mods/engine_1_white"
+    },
+    {
+        "mod_id": "304",
+        "mod_name": "Tuned Drives",
+        "mod_effect": "+6% Engine Efficiency",
+        "mod_desc": "Tuned for marginally increased engine efficiency.",
+        "mod_type": "Engine",
+        "mod_tier": "100",
+        "mod_price": "1,000",
+        "mod_link": "https://www.geministation.com/images/mods/engine_1_white"
+    },
+    {
+        "mod_id": "427",
+        "mod_name": "Inverted Drives",
+        "mod_effect": "-500% Engine Efficiency",
+        "mod_desc": "We don't know either.",
+        "mod_type": "Engine",
+        "mod_tier": "100",
+        "mod_price": "12",
+        "mod_link": "https://www.geministation.com/images/mods/blaster_1_white"
+    },
+    {
+        "mod_id": "199",
+        "mod_name": "Standard Evasion Drive",
+        "mod_effect": "+3% Evasion",
+        "mod_desc": "This mod makes it more difficult for pirates to target you...marginally.",
+        "mod_type": "Engine",
+        "mod_tier": "100",
+        "mod_price": "600",
+        "mod_link": "https://www.geministation.com/images/mods/engine_1_white"
+    },
+    {
+        "mod_id": "200",
+        "mod_name": "Standard Evasion Drive",
+        "mod_effect": "+4% Evasion",
+        "mod_desc": "This mod makes it more difficult for pirates to target you...marginally.",
+        "mod_type": "Engine",
+        "mod_tier": "100",
+        "mod_price": "700",
+        "mod_link": "https://www.geministation.com/images/mods/engine_1_white"
+    },
+    {
+        "mod_id": "305",
+        "mod_name": "Tuned Drives",
+        "mod_effect": "+7% Engine Efficiency",
+        "mod_desc": "Tuned for marginally increased engine efficiency.",
+        "mod_type": "Engine",
+        "mod_tier": "100",
+        "mod_price": "1,500",
+        "mod_link": "https://www.geministation.com/images/mods/engine_1_white"
+    },
+    {
+        "mod_id": "428",
+        "mod_name": "Inverted Drives",
+        "mod_effect": "-500% Engine Efficiency",
+        "mod_desc": "We don't know either.",
+        "mod_type": "Engine",
+        "mod_tier": "100",
+        "mod_price": "12",
+        "mod_link": "https://www.geministation.com/images/mods/blaster_1_white"
+    },
+    {
+        "mod_id": "201",
+        "mod_name": "Standard Evasion Drive",
+        "mod_effect": "+5% Evasion",
+        "mod_desc": "This mod makes it more difficult for pirates to target you...marginally.",
+        "mod_type": "Engine",
+        "mod_tier": "100",
+        "mod_price": "800",
+        "mod_link": "https://www.geministation.com/images/mods/engine_1_white"
+    },
+    {
+        "mod_id": "202",
+        "mod_name": "Standard Evasion Drive",
+        "mod_effect": "+6% Evasion",
+        "mod_desc": "This mod makes it more difficult for pirates to target you...marginally.",
+        "mod_type": "Engine",
+        "mod_tier": "100",
+        "mod_price": "900",
+        "mod_link": "https://www.geministation.com/images/mods/engine_1_white"
+    },
+    {
+        "mod_id": "306",
+        "mod_name": "Tuned Drives",
+        "mod_effect": "+8% Engine Efficiency",
+        "mod_desc": "Tuned for marginally increased engine efficiency.",
+        "mod_type": "Engine",
+        "mod_tier": "100",
+        "mod_price": "2,000",
+        "mod_link": "https://www.geministation.com/images/mods/engine_1_white"
+    },
+    {
+        "mod_id": "391",
+        "mod_name": "Engine-Shaped Garbage",
+        "mod_effect": "",
+        "mod_desc": "It fits a standard engine mod slot, but that's about it. ",
+        "mod_type": "Engine",
+        "mod_tier": "100",
+        "mod_price": "2,500",
+        "mod_link": "https://www.geministation.com/images/mods/engine_1_white"
+    },
+    {
+        "mod_id": "429",
+        "mod_name": "Inverted Drives",
+        "mod_effect": "-500% Engine Efficiency",
+        "mod_desc": "We don't know either.",
+        "mod_type": "Engine",
+        "mod_tier": "100",
+        "mod_price": "12",
+        "mod_link": "https://www.geministation.com/images/mods/blaster_1_white"
+    },
+    {
+        "mod_id": "203",
+        "mod_name": "Standard Evasion Drive",
+        "mod_effect": "+7% Evasion",
+        "mod_desc": "This mod makes it more difficult for pirates to target you...marginally.",
+        "mod_type": "Engine",
+        "mod_tier": "100",
+        "mod_price": "1,000",
+        "mod_link": "https://www.geministation.com/images/mods/engine_1_white"
+    },
+    {
+        "mod_id": "204",
+        "mod_name": "Standard Evasion Drive",
+        "mod_effect": "+8% Evasion",
+        "mod_desc": "This mod makes it more difficult for pirates to target you...marginally.",
+        "mod_type": "Engine",
+        "mod_tier": "100",
+        "mod_price": "1,100",
+        "mod_link": "https://www.geministation.com/images/mods/engine_1_white"
+    },
+    {
+        "mod_id": "307",
+        "mod_name": "Tuned Drives",
+        "mod_effect": "+9% Engine Efficiency",
+        "mod_desc": "Tuned for marginally increased engine efficiency.",
+        "mod_type": "Engine",
+        "mod_tier": "100",
+        "mod_price": "2,500",
+        "mod_link": "https://www.geministation.com/images/mods/engine_1_white"
+    },
+    {
+        "mod_id": "430",
+        "mod_name": "Inverted Drives",
+        "mod_effect": "-500% Engine Efficiency",
+        "mod_desc": "We don't know either.",
+        "mod_type": "Engine",
+        "mod_tier": "100",
+        "mod_price": "12",
+        "mod_link": "https://www.geministation.com/images/mods/blaster_1_white"
+    },
+    {
+        "mod_id": "205",
+        "mod_name": "Standard Evasion Drive",
+        "mod_effect": "+9% Evasion",
+        "mod_desc": "This mod makes it more difficult for pirates to target you...marginally.",
+        "mod_type": "Engine",
+        "mod_tier": "100",
+        "mod_price": "1,200",
+        "mod_link": "https://www.geministation.com/images/mods/engine_1_white"
+    },
+    {
+        "mod_id": "206",
+        "mod_name": "Standard Evasion Drive",
+        "mod_effect": "+10% Evasion",
+        "mod_desc": "This mod makes it more difficult for pirates to target you...marginally.",
+        "mod_type": "Engine",
+        "mod_tier": "100",
+        "mod_price": "1,300",
+        "mod_link": "https://www.geministation.com/images/mods/engine_1_white"
+    },
+    {
+        "mod_id": "308",
+        "mod_name": "Tuned Drives",
+        "mod_effect": "+10% Engine Efficiency",
+        "mod_desc": "Tuned for marginally increased engine efficiency.",
+        "mod_type": "Engine",
+        "mod_tier": "100",
+        "mod_price": "3,000",
+        "mod_link": "https://www.geministation.com/images/mods/engine_1_white"
+    },
+    {
+        "mod_id": "431",
+        "mod_name": "Inverted Drives",
+        "mod_effect": "-500% Engine Efficiency",
+        "mod_desc": "We don't know either.",
+        "mod_type": "Engine",
+        "mod_tier": "100",
+        "mod_price": "12",
+        "mod_link": "https://www.geministation.com/images/mods/blaster_1_white"
+    },
+    {
+        "mod_id": "207",
+        "mod_name": "Standard Evasion Drive",
+        "mod_effect": "+11% Evasion",
+        "mod_desc": "This mod makes it more difficult for pirates to target you...marginally.",
+        "mod_type": "Engine",
+        "mod_tier": "100",
+        "mod_price": "1,400",
+        "mod_link": "https://www.geministation.com/images/mods/engine_1_white"
+    },
+    {
+        "mod_id": "9",
+        "mod_name": "Sub-light Engines",
+        "mod_effect": "2% Engine Efficiency",
+        "mod_desc": "Decrease your travel time by 1%. This effect stacks with other mods. maximum of 50% travel time decrease.",
+        "mod_type": "Engine",
+        "mod_tier": "200",
+        "mod_price": "1,000",
+        "mod_link": "https://www.geministation.com/images/mods/engine_1_green"
+    },
+    {
+        "mod_id": "24",
+        "mod_name": "Combat Thrusters",
+        "mod_effect": "+5% Evasion",
+        "mod_desc": "Increased maneuverability, these thrusters increase evasion by 5% ",
+        "mod_type": "Engine",
+        "mod_tier": "200",
+        "mod_price": "3,500",
+        "mod_link": "https://www.geministation.com/images/mods/engine_1_green"
+    },
+    {
+        "mod_id": "91",
+        "mod_name": "GEM Drive",
+        "mod_effect": "+3% Engine Efficiency",
+        "mod_desc": "Standard Gemini Engine Mod",
+        "mod_type": "Engine",
+        "mod_tier": "200",
+        "mod_price": "2,500",
+        "mod_link": "https://www.geministation.com/images/mods/blaster_1_green"
+    },
+    {
+        "mod_id": "437",
+        "mod_name": "Martian Thrusters",
+        "mod_effect": "+2% Engine Efficiency",
+        "mod_desc": "Slightly better than the Martian Atmospheric Booster.",
+        "mod_type": "Engine",
+        "mod_tier": "200",
+        "mod_price": "1,000",
+        "mod_link": "https://www.geministation.com/images/mods/engine_1_green"
+    },
+    {
+        "mod_id": "490",
+        "mod_name": "Oversized Drive",
+        "mod_effect": "+2% Engine Efficency",
+        "mod_desc": "These oversized drives sacrifice cargo space for speed.",
+        "mod_type": "Engine",
+        "mod_tier": "200",
+        "mod_price": "1,500",
+        "mod_link": "https://www.geministation.com/images/mods/engine_1_green"
+    },
+    {
+        "mod_id": "450",
+        "mod_name": "Evasive Terran Drives",
+        "mod_effect": "+2.5% Evasion",
+        "mod_desc": "Increases your evasion by 2.5%.",
+        "mod_type": "Engine",
+        "mod_tier": "200",
+        "mod_price": "1,500",
+        "mod_link": "https://www.geministation.com/images/mods/engine_1_green"
+    },
+    {
+        "mod_id": "451",
+        "mod_name": "Efficient Terran Drives",
+        "mod_effect": "+2.5% Engine Efficiency",
+        "mod_desc": "Increases your engine efficiency by 2.5%.",
+        "mod_type": "Engine",
+        "mod_tier": "200",
+        "mod_price": "1,500",
+        "mod_link": "https://www.geministation.com/images/mods/engine_1_green"
+    },
+    {
+        "mod_id": "491",
+        "mod_name": "Oversized Drive",
+        "mod_effect": "+2.5% Engine Efficiency",
+        "mod_desc": "These oversized drives sacrifice cargo space for speed.",
+        "mod_type": "Engine",
+        "mod_tier": "200",
+        "mod_price": "1,750",
+        "mod_link": "https://www.geministation.com/images/mods/engine_1_green"
+    },
+    {
+        "mod_id": "32",
+        "mod_name": "Mercurean Thorium-Plated Boosters",
+        "mod_effect": "+750 Heat Resistance",
+        "mod_desc": "Specially designed to resist interference from solar radiation.",
+        "mod_type": "Engine",
+        "mod_tier": "200",
+        "mod_price": "5,000",
+        "mod_link": "https://www.geministation.com/images/mods/engine_1_green"
+    },
+    {
+        "mod_id": "452",
+        "mod_name": "Armored Terran Drives",
+        "mod_effect": "+50 Armor",
+        "mod_desc": "The armored engine casing increases your armor by 50.",
+        "mod_type": "Engine",
+        "mod_tier": "200",
+        "mod_price": "1,500",
+        "mod_link": "https://www.geministation.com/images/mods/engine_1_green"
+    },
+    {
+        "mod_id": "453",
+        "mod_name": "Diverted Terran Drives",
+        "mod_effect": "+2 Shield Recharge",
+        "mod_desc": "A portion of the engine’s power has been rerouted to the shield generator.",
+        "mod_type": "Engine",
+        "mod_tier": "200",
+        "mod_price": "1,500",
+        "mod_link": "https://www.geministation.com/images/mods/engine_1_green"
+    },
+    {
+        "mod_id": "62",
+        "mod_name": "Eris Cargo Engines",
+        "mod_effect": "+5 Cargo Space",
+        "mod_desc": "Stripped bare to reduce size to allow additional cargo storage. Increased storage at the expense of speed.",
+        "mod_type": "Engine",
+        "mod_tier": "200",
+        "mod_price": "20,000",
+        "mod_link": "https://www.geministation.com/images/mods/engine_2_green"
+    },
+    {
+        "mod_id": "456",
+        "mod_name": "Terran Light Combat Thrusters",
+        "mod_effect": "+3% Evasion",
+        "mod_desc": "Increases evasion by 3%",
+        "mod_type": "Engine",
+        "mod_tier": "200",
+        "mod_price": "750",
+        "mod_link": "https://www.geministation.com/images/mods/engine_1_green"
+    },
+    {
+        "mod_id": "492",
+        "mod_name": "Oversized Drive",
+        "mod_effect": "+4% Engine Efficency",
+        "mod_desc": "These oversized drives sacrifice cargo space for speed.",
+        "mod_type": "Engine",
+        "mod_tier": "200",
+        "mod_price": "2,000",
+        "mod_link": "https://www.geministation.com/images/mods/engine_1_green"
+    },
+    {
+        "mod_id": "76",
+        "mod_name": "Combat Thrusters",
+        "mod_effect": "+1 Attack",
+        "mod_desc": "Engines tuned maneuverability, increasing your ship's attack.",
+        "mod_type": "Engine",
+        "mod_tier": "200",
+        "mod_price": "15,000",
+        "mod_link": "https://www.geministation.com/images/mods/engine_1_green"
+    },
+    {
+        "mod_id": "87",
+        "mod_name": "Reticent Drives",
+        "mod_effect": "7.5% Evasion",
+        "mod_desc": "Specially tuned to running silent, these drives increase your evasion.",
+        "mod_type": "Engine",
+        "mod_tier": "200",
+        "mod_price": "5,000",
+        "mod_link": "https://www.geministation.com/images/mods/engine_1_green"
+    },
+    {
+        "mod_id": "88",
+        "mod_name": "Modified Reticent Drives",
+        "mod_effect": "5% Evasion",
+        "mod_desc": "Specially tuned to running silent, these drives increase your evasion with additional modifications to increase defense.",
+        "mod_type": "Engine",
+        "mod_tier": "200",
+        "mod_price": "15,000",
+        "mod_link": "https://www.geministation.com/images/mods/engine_2_green"
+    },
+    {
+        "mod_id": "378",
+        "mod_name": "Balanced Combat Drives MK I",
+        "mod_effect": "+2.5% Targeting",
+        "mod_desc": "These drives have been tuned for combat and not much else. ",
+        "mod_type": "Engine",
+        "mod_tier": "200",
+        "mod_price": "2,500",
+        "mod_link": "https://www.geministation.com/images/mods/engine_2_green"
+    },
+    {
+        "mod_id": "493",
+        "mod_name": "Oversized Drive",
+        "mod_effect": "+5% Engine Efficiency",
+        "mod_desc": "These oversized drives sacrifice cargo space for speed.",
+        "mod_type": "Engine",
+        "mod_tier": "200",
+        "mod_price": "2,500",
+        "mod_link": "https://www.geministation.com/images/mods/engine_1_green"
+    },
+    {
+        "mod_id": "121",
+        "mod_name": "GEM Quiet Drives MK II",
+        "mod_effect": "+7.5% Evasion",
+        "mod_desc": "Tuned for silence, these drives increase your evasion.",
+        "mod_type": "Engine",
+        "mod_tier": "200",
+        "mod_price": "3,000",
+        "mod_link": "https://www.geministation.com/images/mods/engine_1_green"
+    },
+    {
+        "mod_id": "379",
+        "mod_name": "Balanced Combat Drives MK II",
+        "mod_effect": "+5% Targeting",
+        "mod_desc": "These drives have been tuned for combat and not much else. ",
+        "mod_type": "Engine",
+        "mod_tier": "200",
+        "mod_price": "5,000",
+        "mod_link": "https://www.geministation.com/images/mods/engine_2_green"
+    },
+    {
+        "mod_id": "130",
+        "mod_name": "GEM Afterburners MK II",
+        "mod_effect": "+7.5% Targeting",
+        "mod_desc": "Tuned for short-term speed, these drives increase your targeting.",
+        "mod_type": "Engine",
+        "mod_tier": "200",
+        "mod_price": "3,000",
+        "mod_link": "https://www.geministation.com/images/mods/engine_1_green"
+    },
+    {
+        "mod_id": "122",
+        "mod_name": "GEM Quiet Drives MK III",
+        "mod_effect": "+11.25% Evasion",
+        "mod_desc": "Tuned for silence, these drives increase your evasion.",
+        "mod_type": "Engine",
+        "mod_tier": "200",
+        "mod_price": "3,500",
+        "mod_link": "https://www.geministation.com/images/mods/engine_1_green"
+    },
+    {
+        "mod_id": "380",
+        "mod_name": "Balanced Combat Drives MK III",
+        "mod_effect": "+7.5% Targeting",
+        "mod_desc": "These drives have been tuned for combat and not much else. ",
+        "mod_type": "Engine",
+        "mod_tier": "200",
+        "mod_price": "6,000",
+        "mod_link": "https://www.geministation.com/images/mods/engine_2_green"
+    },
+    {
+        "mod_id": "131",
+        "mod_name": "GEM Afterburners MK III",
+        "mod_effect": "+11.25% Targeting",
+        "mod_desc": "Tuned for short-term speed, these drives increase your targeting.",
+        "mod_type": "Engine",
+        "mod_tier": "200",
+        "mod_price": "3,500",
+        "mod_link": "https://www.geministation.com/images/mods/engine_1_green"
+    },
+    {
+        "mod_id": "123",
+        "mod_name": "GEM Quiet Drives MK IV",
+        "mod_effect": "+15% Evasion",
+        "mod_desc": "Tuned for silence, these drives increase your evasion.",
+        "mod_type": "Engine",
+        "mod_tier": "200",
+        "mod_price": "4,000",
+        "mod_link": "https://www.geministation.com/images/mods/engine_1_green"
+    },
+    {
+        "mod_id": "381",
+        "mod_name": "Balanced Combat Drives MK IV",
+        "mod_effect": "+10% Targeting",
+        "mod_desc": "These drives have been tuned for combat and not much else. ",
+        "mod_type": "Engine",
+        "mod_tier": "200",
+        "mod_price": "7,000",
+        "mod_link": "https://www.geministation.com/images/mods/engine_2_green"
+    },
+    {
+        "mod_id": "132",
+        "mod_name": "GEM Afterburners MK IV",
+        "mod_effect": "+15% Targeting",
+        "mod_desc": "Tuned for short-term speed, these drives increase your targeting.",
+        "mod_type": "Engine",
+        "mod_tier": "200",
+        "mod_price": "4,000",
+        "mod_link": "https://www.geministation.com/images/mods/engine_1_green"
+    },
+    {
+        "mod_id": "124",
+        "mod_name": "GEM Quiet Drives MK V",
+        "mod_effect": "+18.75% Evasion",
+        "mod_desc": "Tuned for silence, these drives increase your evasion.",
+        "mod_type": "Engine",
+        "mod_tier": "200",
+        "mod_price": "4,500",
+        "mod_link": "https://www.geministation.com/images/mods/engine_1_green"
+    },
+    {
+        "mod_id": "382",
+        "mod_name": "Balanced Combat Drives MK V",
+        "mod_effect": "+12.5% Targeting",
+        "mod_desc": "These drives have been tuned for combat and not much else. ",
+        "mod_type": "Engine",
+        "mod_tier": "200",
+        "mod_price": "8,000",
+        "mod_link": "https://www.geministation.com/images/mods/engine_2_green"
+    },
+    {
+        "mod_id": "133",
+        "mod_name": "GEM Afterburners MK V",
+        "mod_effect": "+18.75% Targeting",
+        "mod_desc": "Tuned for short-term speed, these drives increase your targeting.",
+        "mod_type": "Engine",
+        "mod_tier": "200",
+        "mod_price": "4,500",
+        "mod_link": "https://www.geministation.com/images/mods/engine_1_green"
+    },
+    {
+        "mod_id": "125",
+        "mod_name": "GEM Quiet Drives MK VI",
+        "mod_effect": "+22.5% Evasion",
+        "mod_desc": "Tuned for silence, these drives increase your evasion.",
+        "mod_type": "Engine",
+        "mod_tier": "200",
+        "mod_price": "5,000",
+        "mod_link": "https://www.geministation.com/images/mods/engine_1_green"
+    },
+    {
+        "mod_id": "383",
+        "mod_name": "Balanced Combat Drives MK VI",
+        "mod_effect": "+15% Targeting",
+        "mod_desc": "These drives have been tuned for combat and not much else. ",
+        "mod_type": "Engine",
+        "mod_tier": "200",
+        "mod_price": "9,000",
+        "mod_link": "https://www.geministation.com/images/mods/engine_2_green"
+    },
+    {
+        "mod_id": "134",
+        "mod_name": "GEM Afterburners MK VI",
+        "mod_effect": "+22.5% Targeting",
+        "mod_desc": "Tuned for short-term speed, these drives increase your targeting.",
+        "mod_type": "Engine",
+        "mod_tier": "200",
+        "mod_price": "5,000",
+        "mod_link": "https://www.geministation.com/images/mods/engine_1_green"
+    },
+    {
+        "mod_id": "126",
+        "mod_name": "GEM Quiet Drives MK VII",
+        "mod_effect": "+26.25% Evasion",
+        "mod_desc": "Tuned for silence, these drives increase your evasion.",
+        "mod_type": "Engine",
+        "mod_tier": "200",
+        "mod_price": "5,500",
+        "mod_link": "https://www.geministation.com/images/mods/engine_1_green"
+    },
+    {
+        "mod_id": "384",
+        "mod_name": "Balanced Combat Drives MK VII",
+        "mod_effect": "+17.5% Targeting",
+        "mod_desc": "These drives have been tuned for combat and not much else. ",
+        "mod_type": "Engine",
+        "mod_tier": "200",
+        "mod_price": "10,000",
+        "mod_link": "https://www.geministation.com/images/mods/engine_2_green"
+    },
+    {
+        "mod_id": "135",
+        "mod_name": "GEM Afterburners MK VII",
+        "mod_effect": "+26.25% Targeting",
+        "mod_desc": "Tuned for short-term speed, these drives increase your targeting.",
+        "mod_type": "Engine",
+        "mod_tier": "200",
+        "mod_price": "5,500",
+        "mod_link": "https://www.geministation.com/images/mods/engine_1_green"
+    },
+    {
+        "mod_id": "127",
+        "mod_name": "GEM Quiet Drives MK VIII",
+        "mod_effect": "+30% Evasion",
+        "mod_desc": "Tuned for silence, these drives increase your evasion.",
+        "mod_type": "Engine",
+        "mod_tier": "200",
+        "mod_price": "6,000",
+        "mod_link": "https://www.geministation.com/images/mods/engine_1_green"
+    },
+    {
+        "mod_id": "385",
+        "mod_name": "Balanced Combat Drives MK VIII",
+        "mod_effect": "+20% Targeting",
+        "mod_desc": "These drives have been tuned for combat and not much else. ",
+        "mod_type": "Engine",
+        "mod_tier": "200",
+        "mod_price": "11,000",
+        "mod_link": "https://www.geministation.com/images/mods/engine_2_green"
+    },
+    {
+        "mod_id": "136",
+        "mod_name": "GEM Afterburners MK VIII",
+        "mod_effect": "+30% Targeting",
+        "mod_desc": "Tuned for short-term speed, these drives increase your targeting.",
+        "mod_type": "Engine",
+        "mod_tier": "200",
+        "mod_price": "6,000",
+        "mod_link": "https://www.geministation.com/images/mods/engine_1_green"
+    },
+    {
+        "mod_id": "128",
+        "mod_name": "GEM Quiet Drives MK IX",
+        "mod_effect": "+33.75% Evasion",
+        "mod_desc": "Tuned for silence, these drives increase your evasion.",
+        "mod_type": "Engine",
+        "mod_tier": "200",
+        "mod_price": "6,500",
+        "mod_link": "https://www.geministation.com/images/mods/engine_1_green"
+    },
+    {
+        "mod_id": "386",
+        "mod_name": "Balanced Combat Drives MK IX",
+        "mod_effect": "+22.5% Targeting",
+        "mod_desc": "These drives have been tuned for combat and not much else. ",
+        "mod_type": "Engine",
+        "mod_tier": "200",
+        "mod_price": "12,000",
+        "mod_link": "https://www.geministation.com/images/mods/engine_2_green"
+    },
+    {
+        "mod_id": "137",
+        "mod_name": "GEM Afterburners MK IX",
+        "mod_effect": "+33.75% Targeting",
+        "mod_desc": "Tuned for short-term speed, these drives increase your targeting.",
+        "mod_type": "Engine",
+        "mod_tier": "200",
+        "mod_price": "6,500",
+        "mod_link": "https://www.geministation.com/images/mods/engine_1_green"
+    },
+    {
+        "mod_id": "129",
+        "mod_name": "GEM Quiet Drives X",
+        "mod_effect": "+37.5% Evasion",
+        "mod_desc": "Tuned for silence, these drives increase your evasion.",
+        "mod_type": "Engine",
+        "mod_tier": "200",
+        "mod_price": "7,000",
+        "mod_link": "https://www.geministation.com/images/mods/engine_1_green"
+    },
+    {
+        "mod_id": "387",
+        "mod_name": "Balanced Combat Drives MK X",
+        "mod_effect": "+25% Targeting",
+        "mod_desc": "These drives have been tuned for combat and not much else. ",
+        "mod_type": "Engine",
+        "mod_tier": "200",
+        "mod_price": "15,000",
+        "mod_link": "https://www.geministation.com/images/mods/engine_2_green"
+    },
+    {
+        "mod_id": "10",
+        "mod_name": "Tier III Engines",
+        "mod_effect": "+10% Engine Efficiency",
+        "mod_desc": "",
+        "mod_type": "Engine",
+        "mod_tier": "300",
+        "mod_price": "75,000",
+        "mod_link": "https://www.geministation.com/images/mods/engine_2_blue"
+    },
+    {
+        "mod_id": "292",
+        "mod_name": "Runner's Engines",
+        "mod_effect": "10% Evasion",
+        "mod_desc": "The sneakiest.",
+        "mod_type": "Engine",
+        "mod_tier": "300",
+        "mod_price": "80,000",
+        "mod_link": "https://www.geministation.com/images/mods/enginesblack_3_blue"
+    },
+    {
+        "mod_id": "293",
+        "mod_name": "Hunter's Drives",
+        "mod_effect": "10% Targeting",
+        "mod_desc": "Tuned to target ships. ",
+        "mod_type": "Engine",
+        "mod_tier": "300",
+        "mod_price": "80,000",
+        "mod_link": "https://www.geministation.com/images/mods/engine_3_blue"
+    },
+    {
+        "mod_id": "413",
+        "mod_name": "Terran Evasion Thruster",
+        "mod_effect": "+15% Evasion",
+        "mod_desc": "DESC NEEDED",
+        "mod_type": "Engine",
+        "mod_tier": "300",
+        "mod_price": "25,000",
+        "mod_link": "https://www.geministation.com/images/mods/engine_2_blue"
+    },
+    {
+        "mod_id": "432",
+        "mod_name": "Phantom Drives",
+        "mod_effect": "+15% Evasion",
+        "mod_desc": "Increases evasion by 20%",
+        "mod_type": "Engine",
+        "mod_tier": "300",
+        "mod_price": "10,000",
+        "mod_link": "https://www.geministation.com/images/mods/enginestealth_3_blue"
+    },
+    {
+        "mod_id": "433",
+        "mod_name": "Phantom Drives",
+        "mod_effect": "+30% Evasion",
+        "mod_desc": "Increases evasion by30%",
+        "mod_type": "Engine",
+        "mod_tier": "300",
+        "mod_price": "15,000",
+        "mod_link": "https://www.geministation.com/images/mods/enginestealth_3_blue"
+    },
+    {
+        "mod_id": "434",
+        "mod_name": "Phantom Drives",
+        "mod_effect": "+40% Evasion",
+        "mod_desc": "Increases evasion by 40%",
+        "mod_type": "Engine",
+        "mod_tier": "300",
+        "mod_price": "20,000",
+        "mod_link": "https://www.geministation.com/images/mods/enginestealth_3_blue"
+    },
+    {
+        "mod_id": "435",
+        "mod_name": "Phantom Drives",
+        "mod_effect": "+50% Evasion",
+        "mod_desc": "Increases evasion by 50%",
+        "mod_type": "Engine",
+        "mod_tier": "300",
+        "mod_price": "25,000",
+        "mod_link": "https://www.geministation.com/images/mods/enginestealth_3_blue"
+    },
+    {
+        "mod_id": "67",
+        "mod_name": "Blockade Runner's Drive",
+        "mod_effect": "+20% Travel Speed",
+        "mod_desc": "These oversized engines sacrifice cargo space for speed.",
+        "mod_type": "Engine",
+        "mod_tier": "300",
+        "mod_price": "50,000",
+        "mod_link": "https://www.geministation.com/images/mods/engine_4_blue"
+    },
+    {
+        "mod_id": "11",
+        "mod_name": "Trader's Tier IV Engines",
+        "mod_effect": "+20% Engine Efficiency",
+        "mod_desc": "",
+        "mod_type": "Engine",
+        "mod_tier": "400",
+        "mod_price": "250,000",
+        "mod_link": "https://www.geministation.com/images/mods/engineblackfin_4_purple"
+    },
+    {
+        "mod_id": "436",
+        "mod_name": "Beta Drives",
+        "mod_effect": "+20% Engine Efficiency ",
+        "mod_desc": "These drives are rewarded to pilots who participated in Gem's beta testing.",
+        "mod_type": "Engine",
+        "mod_tier": "500",
+        "mod_price": "0",
+        "mod_link": "https://www.geministation.com/images/mods/engine_4_orange"
+    },
+    {
+        "mod_id": "7",
+        "mod_name": "Myriad Drive ",
+        "mod_effect": "Travel time is reduced by 99%.",
+        "mod_desc": "Based on experimental engine technology, the Myriad Drive propels the pilot at near infinite speeds.",
+        "mod_type": "Engine",
+        "mod_tier": "600",
+        "mod_price": "50,000,000",
+        "mod_link": "https://www.geministation.com/images/mods/enginestealth_4_gold"
+    }
+]
