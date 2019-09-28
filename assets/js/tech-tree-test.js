@@ -64,15 +64,15 @@ function setup(tech) {
     /**/
    
     var techClass ='';
-    if(tech.is_white){
+    if(tech.mod_tier == "100"){
         techClass = ' white';
-    }else if(tech.is_green){
+    }else if(tech.mod_tier == "200"){
         techClass = ' green';
-    }else if(tech.is_blue){
+    }else if(tech.mod_tier == "300"){
         techClass = ' blue';
-    }else if(tech.is_purple){
+    }else if(tech.mod_tier == "400"){
         techClass = ' purple';
-    }else if(tech.is_orange){
+    }else if(tech.mod_tier == "500"){
         techClass = ' orange';
     }
     var tmpl = $.templates("#node-template");
