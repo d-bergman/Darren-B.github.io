@@ -1,0 +1,700 @@
+html, body {
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden;
+}
+
+body {
+  font-family: 'Noto Sans KR', sans-serif;
+  border: 2px solid white;
+}
+
+.dropbtn {
+  padding: 16px;
+  font-size: calc(12px+0.5vw);
+  border: none;
+  cursor: pointer;
+  border-radius: 12px;
+}
+
+h4 {
+  font-size: calc(16px+2vw);
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: #f1f1f1
+}
+
+.show {
+  display: block;
+}
+
+h1 {
+  text-align: center;
+  color: #1ABC9C;
+  text-shadow: 2px 2px black;
+  font-weight: bold;
+}
+
+h2 {
+  text-align: center;
+  color: #1ABC9C;
+  font-weight: bold;
+  text-shadow: 1px 1px black
+}
+
+h3 {
+  text-align: center;
+  color: black;
+  font-weight: bold;
+}
+
+#pskills {
+  text-align: center;
+}
+
+#motto {
+  font-size: calc(8px+1vw);
+}
+
+@media only screen and (max-width:415px) {
+  #motto {
+    font-size: 16px;
+  }
+  h1 {
+    text-align: center;
+    color: #1ABC9C;
+    text-shadow: 2px 2px black;
+    font-weight: bold;
+    font-size: 1.5em;
+  }
+}
+
+.c_line {
+  display: block;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: inset;
+  border-width: 1px;
+  width: 100%;
+}
+
+hr {
+  display: block;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: inset;
+  border-width: 1px;
+  width: 70%;
+}
+
+#phone {
+  margin-top: 1%;
+}
+
+#mail {
+  margin-top: 1%;
+}
+
+.container1 {
+  width: 100%;
+}
+
+.skills {
+  text-align: right;
+  padding: 10px;
+  color: white;
+}
+/*Percentages*/
+.html {
+  width: 30%;
+  background-color: #808080;
+}
+
+.css {
+  width: 30%;
+  background-color: #808080;
+}
+
+.win10 {
+  width: 90%;
+  background-color: #808080;
+}
+
+.macios {
+  width: 20%;
+  background-color: #808080;
+}
+
+.ios {
+  width: 90%;
+  background-color: #808080;
+}
+
+.android {
+  width: 10%;
+  background-color: #808080;
+}
+
+.msoffice {
+  width: 70%;
+  background-color: #808080;
+}
+
+.wikian {
+  width: 95%;
+  background-color: #808080;
+}
+
+.collapsible {
+  border-radius: 16px;
+  background-color: #777;
+  color: white;
+  cursor: pointer;
+  padding: 8px;
+  width: 30%;
+  margin-top: 2%;
+  margin-bottom: 5%;
+  text-align: center;
+  outline: none;
+  font-size: calc(1px+0.5vw);
+}
+
+.active, .collapsible:hover {
+  background-color: #555;
+}
+
+.content {
+  font-size: calc(10px + 0.5vw);
+  ;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+}
+
+.tital {
+  font-size: calc(20px+1vw);
+  font-weight: 500; 
+  /*text-shadow: 1px 1px gray;*/
+  color: rgb(67, 155, 137);
+}
+
+#resume {
+  text-shadow: 0.5px 1px black;
+  padding: 0 5%;
+  color: #333;
+  font-weight: bold;
+  font-size: calc(14px+1vw);
+  margin-bottom: 5%;
+}
+
+#header {
+  background-image: url("../images/header8.jpg");
+  max-width: 100%;
+  height: 600px;
+  border: 1px solid #333;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+@media only screen and (min-width: 479px) {
+  #header {
+    background-image: url("../images/header7.jpg");
+    max-width: 100%;
+    height: 900px;
+    border: 1px solid #333;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+  }
+}
+
+#me {
+  border: 5px solid white;
+  margin-left: 20%;
+  border-radius: 12px;
+  height: auto;
+  max-width: 100%;
+  margin-bottom: 5%;
+  margin-top: 5%;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#info {
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-bottom: 5%;
+  margin-top: 5%;
+  z-index: 1;
+}
+
+#social {
+  text-align: center;
+  -webkit-transition: width 2s;
+  /* Safari */
+  transition: width 2s;
+}
+
+.logos {
+  transition-timing-function: ease-in-out;
+  transition-duration: .3s;
+  -webkit-transition-timing-function: ease;
+}
+
+.logos:hover {
+  background-color: gray;
+  border-radius: 50px;
+}
+
+#social :hover {
+  width: 60px;
+}
+
+#h_about {
+  color: #1ABC9C;
+}
+
+#about {
+  align-content: center;
+  text-align: center;
+  max-width: 100%;
+  height: auto;
+  background-color: #e6e6e6;
+  color: #333;
+  border: 1px solid white;
+  padding-right: 5%;
+  padding-left: 5%;
+  font-size: calc(10px + 0.5vw);
+}
+
+#career {
+  align-content: center;
+  max-width: 100%;
+  height: auto;
+  background-color: #e6e6e6;
+  text-align: left;
+  font-size: calc(10px + 0.5vw);
+  color: #333;
+  border: 1px solid white;
+  padding-right: 5%;
+  padding-left: 5%;
+}
+
+#projects {
+  align-content: center;
+  max-width: 100%;
+  height: auto;
+  background-color: #333;
+  text-align: center;
+  font-size: calc(10px + 0.5vw);
+  color: white;
+  border: 1px solid white;
+  padding-right: 5%;
+  padding-left: 5%;
+}
+
+#skills {
+  background-color: #333;
+  font-size: calc(10px + 0.5vw);
+  color: white;
+  border: 1px solid white;
+  padding-right: 10%;
+  padding-left: 10%;
+}
+
+#contact {
+  align-content: right;
+  max-width: 100%;
+  height: auto;
+  background-color: #e6e6e6;
+  text-align: center;
+  font-size: calc(10px + 0.5vw);
+  color: #333;
+}
+
+.c_form {
+  align-content: center
+}
+
+.rightside {
+  font-size: calc(8px + 0.5vw);
+  text-align: left;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.sticky+.content {
+  padding-top: 60px;
+}
+
+.skills-bar-container {
+  position: relative;
+  width: 80%;
+  min-width: 300px;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  list-style: none;
+}
+
+.skills-bar-container li {
+  position: relative;
+  width: 100%;
+  padding: 5px;
+  margin-bottom: 10px;
+}
+
+.skills-bar-container li .progressbar-title {
+  color: #fff;
+}
+
+.skills-bar-container li .progressbar-title h3 {
+  display: inline-block;
+  color: white;
+}
+
+.skills-bar-container li .progressbar-title .percent {
+  position: absolute;
+  right: 5px;
+}
+
+.skills-bar-container li .bar-container {
+  background: #555;
+  position: relative;
+  width: 100%;
+  height: 25px;
+  margin-top: 5px;
+  display: block;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  border-radius: 5px;
+}
+
+.skills-bar-container li .bar-container .progressbar {
+  position: absolute;
+  width: 0%;
+  height: 100%;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  border-radius: 5px;
+  -webkit-animation-duration: 2s;
+  animation-duration: 2s;
+  -webkit-animation-timing-function: ease-out;
+  animation-timing-function: ease-out;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+
+.skills-bar-container li .bar-container #progress-html {
+  -webkit-animation-name: progress-html;
+  animation-name: progress-html;
+  -webkit-animation-delay: 0.7s;
+  animation-delay: 0.7s;
+}
+
+.skills-bar-container li .bar-container #progress-css {
+  -webkit-animation-name: progress-css;
+  animation-name: progress-css;
+  -webkit-animation-delay: 1.4s;
+  animation-delay: 1.4s;
+}
+
+.skills-bar-container li .bar-container #progress-win10 {
+  -webkit-animation-name: progress-win10;
+  animation-name: progress-win10;
+  -webkit-animation-delay: 2.1s;
+  animation-delay: 2.1s;
+}
+
+.skills-bar-container li .bar-container #progress-macios {
+  -webkit-animation-name: progress-macios;
+  animation-name: progress-macios;
+  -webkit-animation-delay: 2.8s;
+  animation-delay: 2.8s;
+}
+
+.skills-bar-container li .bar-container #progress-ios {
+  -webkit-animation-name: progress-ios;
+  animation-name: progress-ios;
+  -webkit-animation-delay: 3.5s;
+  animation-delay: 3.5s;
+}
+
+.skills-bar-container li .bar-container #progress-android {
+  -webkit-animation-name: progress-android;
+  animation-name: progress-android;
+  -webkit-animation-delay: 4.2s;
+  animation-delay: 4.2s;
+}
+
+.skills-bar-container li .bar-container #progress-msoffice {
+  -webkit-animation-name: progress-msoffice;
+  animation-name: progress-msoffice;
+  -webkit-animation-delay: 4.9s;
+  animation-delay: 4.9s;
+}
+
+.skills-bar-container li .bar-container #progress-wikian {
+  -webkit-animation-name: progress-wikian;
+  animation-name: progress-wikian;
+  -webkit-animation-delay: 5.2s;
+  animation-delay: 5.2s;
+}
+
+.progress_b {
+  background-color: #1ABC9C;
+  ;
+}
+/*Width Percentages*/
+@-webkit-keyframes progress-html {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 30%;
+  }
+}
+
+@-webkit-keyframes progress-css {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 30%;
+  }
+}
+
+@-webkit-keyframes progress-win10 {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 90%;
+  }
+}
+
+@-webkit-keyframes progress-macios {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 35%;
+  }
+}
+
+@-webkit-keyframes progress-ios {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 90%;
+  }
+}
+
+@-webkit-keyframes progress-android {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 30%;
+  }
+}
+
+@-webkit-keyframes progress-msoffice {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 70%;
+  }
+}
+
+@-webkit-keyframes progress-wikian {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 95%;
+  }
+}
+
+@-moz-keyframes progress-html {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 30%;
+  }
+}
+
+@-moz-keyframes progress-css {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 30%;
+  }
+}
+
+@-moz-keyframes progress-win10 {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 90%;
+  }
+}
+
+@-moz-keyframes progress-macios {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 35%;
+  }
+}
+
+@-moz-keyframes progress-ios {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 90%;
+  }
+}
+
+@-moz-keyframes progress-android {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 30%;
+  }
+}
+
+@-moz-keyframes progress-msoffice {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 70%;
+  }
+}
+
+@-moz-keyframes progress-wikian {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 95%;
+  }
+}
+
+@keyframes progress-html {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 30%;
+  }
+}
+
+@keyframes progress-css {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 30%;
+  }
+}
+
+@keyframes progress-win10 {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 90%;
+  }
+}
+
+@keyframes progress-macios {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 35%;
+  }
+}
+
+@keyframes progress-ios {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 90%;
+  }
+}
+
+@keyframes progress-android {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 30%;
+  }
+}
+
+@keyframes progress-msoffice {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 70%;
+  }
+}
+
+@keyframes progress-wikian {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 95%;
+  }
+}
