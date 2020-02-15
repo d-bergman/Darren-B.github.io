@@ -272,12 +272,13 @@ hr {
 }
 
 .logos:hover {
-  background-color: gray;
+  /*background-color: blue;*/
   border-radius: 50px;
 }
 
 #social :hover {
   width: 60px;
+  height: 60px;
 }
 
 #h_about {
