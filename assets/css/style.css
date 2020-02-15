@@ -53,14 +53,14 @@ h4 {
 
 h1 {
   text-align: center;
-  color: #1ABC9C;
+  color: #44B3BC;
   text-shadow: 2px 2px black;
   font-weight: bold;
 }
 
 h2 {
   text-align: center;
-  color: #1ABC9C;
+  color: #44B3BC;
   font-weight: bold;
   text-shadow: 1px 1px black
 }
@@ -85,7 +85,7 @@ h3 {
   }
   h1 {
     text-align: center;
-    color: #1ABC9C;
+    color: #44B3BC;
     text-shadow: 2px 2px black;
     font-weight: bold;
     font-size: 1.5em;
@@ -282,7 +282,7 @@ hr {
 }
 
 #h_about {
-  color: #1ABC9C;
+  color: #44B3BC;
 }
 
 #about {
@@ -480,7 +480,7 @@ hr {
 }
 
 .progress_b {
-  background-color: #1ABC9C;
+  background-color: #44B3BC;
   ;
 }
 /*Width Percentages*/
