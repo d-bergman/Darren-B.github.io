@@ -202,16 +202,31 @@ hr {
   font-size: calc(20px+1vw);
   font-weight: 500; 
   /*text-shadow: 1px 1px gray;*/
-  color: rgb(67, 155, 137);
+  color: #44B3BC;
 }
 
+#resumediv{
+  text-align: center;
+}
 #resume {
-  text-shadow: 0.5px 1px black;
-  padding: 0 5%;
-  color: #333;
+  margin-top: 12px;
+  background-image: linear-gradient(rgba(33,245,255),rgb(1,36,68)); 
+  border: none;
+  padding: 8px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 12px;
+  cursor: pointer;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  text-align: center;
+
+  color: white;
   font-weight: bold;
-  font-size: calc(14px+1vw);
-  margin-bottom: 5%;
+
+  box-shadow: 0 8px 16px 0 #4FA5BC, 0 6px 20px 0 rgba(218, 202, 202, 0.2);
 }
 
 #header {
